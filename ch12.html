@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>第 12 章　驗證與迭代｜地方 DNA 設計轉譯</title>
+<meta name="description" content="第 12 章　驗證與迭代｜地方 DNA 設計轉譯：從地方理解到設計實踐的方法論與 AI 協作">
+<meta name="author" content="張文山">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="第 12 章　驗證與迭代｜地方 DNA 設計轉譯">
+<meta property="og:description" content="第 12 章　驗證與迭代｜地方 DNA 設計轉譯：從地方理解到設計實踐的方法論與 AI 協作">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#1d5c58">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="prev" href="ch11.html"><link rel="next" href="ch13.html">
+<script>(function(){try{var g=function(k,d){var v=localStorage.getItem('dna-book:'+k);return v===null?d:JSON.parse(v)};var r=document.documentElement,t=g('theme','auto');if(t!=='auto')r.setAttribute('data-theme',t);r.setAttribute('data-font',g('font','serif'));r.style.setProperty('--fs-base',g('size',18)+'px');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Noto+Serif+TC:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="assets/css/book.css">
+</head>
+<body data-part="2" data-page="ch12" data-title="第 12 章　驗證與迭代">
+<a class="skip-link" href="#main">跳到內文</a>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="全書目錄">
+    <div class="sb-head">
+      <a class="sb-brand" href="index.html">
+        <span class="sb-mark" aria-hidden="true"></span>
+        <span><span class="sb-title">地方 DNA 設計轉譯</span><span class="sb-sub" style="display:block">張文山　著</span></span>
+      </a>
+      <button class="sb-search" type="button" data-open-search><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>搜尋全書…</span><kbd>/</kbd></button>
+    </div>
+    <nav class="sb-nav" aria-label="章節"><ol><li class="toc-part" data-part="front"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label"></span><span>開始閱讀</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="about"><a class="toc-link" href="about.html"><span>編寫說明</span></a></li><li class="toc-item" data-page="preface"><a class="toc-link" href="preface.html"><span>前言：如何使用本書</span></a></li></ol></li><li class="toc-part" data-part="part-1"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第一篇</span><span>觀念篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch01"><a class="toc-link" href="ch01.html"><span class="toc-num">1</span><span>地方創生為什麼要先理解地方？</span></a></li><li class="toc-item" data-page="ch02"><a class="toc-link" href="ch02.html"><span class="toc-num">2</span><span>什麼是地方DNA</span></a></li><li class="toc-item" data-page="ch03"><a class="toc-link" href="ch03.html"><span class="toc-num">3</span><span>從DNA到魅力到設計</span></a></li></ol></li><li class="toc-part" data-part="part-2"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第二篇</span><span>方法篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch04"><a class="toc-link" href="ch04.html"><span class="toc-num">4</span><span>方法論全景</span></a></li><li class="toc-item" data-page="ch05"><a class="toc-link" href="ch05.html"><span class="toc-num">5</span><span>證據蒐集</span></a></li><li class="toc-item" data-page="ch06"><a class="toc-link" href="ch06.html"><span class="toc-num">6</span><span>DNA萃取與脈絡分析</span></a></li><li class="toc-item" data-page="ch07"><a class="toc-link" href="ch07.html"><span class="toc-num">7</span><span>感知與語意</span></a></li><li class="toc-item" data-page="ch08"><a class="toc-link" href="ch08.html"><span class="toc-num">8</span><span>地方色彩</span></a></li><li class="toc-item" data-page="ch09"><a class="toc-link" href="ch09.html"><span class="toc-num">9</span><span>地方圖紋與四方連續樣式圖</span></a></li><li class="toc-item" data-page="ch10"><a class="toc-link" href="ch10.html"><span class="toc-num">10</span><span>地方特色商品設計</span></a></li><li class="toc-item" data-page="ch11"><a class="toc-link" href="ch11.html"><span class="toc-num">11</span><span>地方深度體驗遊程設計</span></a></li><li class="toc-item is-current" data-page="ch12"><a class="toc-link" href="ch12.html" aria-current="page"><span class="toc-num">12</span><span>驗證與迭代</span></a><ol class="toc-sections"><li class="toc-sec"><a href="#s12-1">12.1　驗證是整條轉譯鏈的校準</a></li><li class="toc-sec"><a href="#s12-2">12.2　驗什麼：三個問題、四套量尺</a></li><li class="toc-sec"><a href="#s12-3">12.3　誰來驗：三種受測者與一頁驗證計畫</a></li><li class="toc-sec"><a href="#s12-4">12.4　怎麼問：量表、題目與開放意見</a></li><li class="toc-sec"><a href="#s12-5">12.5　怎麼讀：平均、分布與少數意見</a></li><li class="toc-sec"><a href="#s12-6">12.6　改版矩陣：從意見到行動</a></li><li class="toc-sec"><a href="#s12-7">12.7　回流：問題回到哪個階段改</a></li><li class="toc-sec"><a href="#s12-8">12.8　前後比較與迭代紀錄</a></li><li class="toc-sec"><a href="#s12-9">12.9　AI協作：彙整與編碼可以，替受測者回答不行</a></li></ol></li></ol></li><li class="toc-part" data-part="part-3"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第三篇</span><span>AI協作篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch13"><a class="toc-link" href="ch13.html"><span class="toc-num">13</span><span>人機協作的原則與分工</span></a></li><li class="toc-item" data-page="ch14"><a class="toc-link" href="ch14.html"><span class="toc-num">14</span><span>各階段的提示詞與紀錄</span></a></li><li class="toc-item" data-page="ch15"><a class="toc-link" href="ch15.html"><span class="toc-num">15</span><span>品質、倫理與文化權利</span></a></li></ol></li><li class="toc-part" data-part="part-4"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第四篇</span><span>實踐篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch16"><a class="toc-link" href="ch16.html"><span class="toc-num">16</span><span>設計的永續轉譯</span></a></li><li class="toc-item" data-page="ch17"><a class="toc-link" href="ch17.html"><span class="toc-num">17</span><span>完整案例：一條可追溯的轉譯鏈</span></a></li><li class="toc-item" data-page="ch18"><a class="toc-link" href="ch18.html"><span class="toc-num">18</span><span>課程實施與成果評量</span></a></li></ol></li><li class="toc-part" data-part="part-5"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label"></span><span>附錄</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="appendix-a"><a class="toc-link" href="appendix-a.html"><span class="toc-num">A</span><span>十四份工具範本</span></a></li><li class="toc-item" data-page="appendix-b"><a class="toc-link" href="appendix-b.html"><span class="toc-num">B</span><span>提示詞庫</span></a></li><li class="toc-item" data-page="appendix-c"><a class="toc-link" href="appendix-c.html"><span class="toc-num">C</span><span>各階段檢核表</span></a></li><li class="toc-item" data-page="appendix-d"><a class="toc-link" href="appendix-d.html"><span class="toc-num">D</span><span>名詞釋義</span></a></li><li class="toc-item" data-page="appendix-e"><a class="toc-link" href="appendix-e.html"><span class="toc-num">E</span><span>出版前查核清單</span></a></li><li class="toc-item" data-page="appendix-f"><a class="toc-link" href="appendix-f.html"><span class="toc-num">F</span><span>參考文獻與資料來源</span></a></li><li class="toc-item" data-page="appendix-g"><a class="toc-link" href="appendix-g.html"><span class="toc-num">G</span><span>AI概念模擬圖集</span></a></li></ol></li></ol></nav>
+    <div class="sb-foot">審閱編修稿 3.3 整合版（2026 年 10 月）</div>
+  </aside>
+  <div class="scrim" aria-hidden="true"></div>
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn" id="menuBtn" type="button" aria-label="開關目錄" aria-controls="sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
+      <div class="crumbs"><a class="home-crumb" href="index.html" aria-label="封面">地方 DNA 設計轉譯</a><span class="sep" aria-hidden="true">/</span><span class="part-crumb">第二篇 方法篇</span><span class="sep sep2" aria-hidden="true">/</span><span class="here">第 12 章　驗證與迭代</span></div>
+      <div class="top-actions">
+        <button class="icon-btn" type="button" data-open-search aria-label="搜尋全書"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <button class="icon-btn" id="settingsBtn" type="button" aria-label="閱讀設定" aria-haspopup="true" aria-expanded="false" aria-controls="settingsPop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V5h11v2M9.5 5v14M7 19h5"/><path d="M14 12v-1.5h7V12M17.5 10.5V19M16 19h3"/></svg></button>
+      </div>
+      <div class="progress" aria-hidden="true"><span></span></div>
+      <div class="popover" id="settingsPop" role="dialog" aria-label="閱讀設定" hidden>
+        <div class="pop-row"><div class="pop-label">字級</div>
+          <div class="size-row"><button type="button" data-size="-1" aria-label="縮小字級">A−</button><output id="sizeOut">18 px</output><button type="button" data-size="1" aria-label="放大字級">A＋</button></div></div>
+        <div class="pop-row"><div class="pop-label">字體</div>
+          <div class="seg"><button type="button" data-set-font="serif" style="font-family:var(--font-serif)">明體</button><button type="button" data-set-font="sans" style="font-family:var(--font-sans)">黑體</button></div></div>
+        <div class="pop-row"><div class="pop-label">背景</div>
+          <div class="seg"><button type="button" data-set-theme="auto">自動</button><button type="button" data-set-theme="light"><span class="swatch" style="background:#f8f6f1"></span>白</button><button type="button" data-set-theme="sepia"><span class="swatch" style="background:#f3ead7"></span>米</button><button type="button" data-set-theme="dark"><span class="swatch" style="background:#1c1f23"></span>夜</button></div></div>
+      </div>
+    </header>
+    <main><article class="page" id="main" tabindex="-1"><header class="ch-hero part-2"><div class="ch-hero-inner"><div class="ch-kicker">第二篇 方法篇 <span class="dot" aria-hidden="true"></span> 階段6：驗證迭代</div><div class="ch-number">第 12 章</div><h1 class="ch-title">驗證與迭代</h1><p class="ch-subtitle">讓居民、專家與使用者檢查設計，並把意見變成可追溯的改版</p></div></header><div class="content"><section class="ch-meta" aria-label="本章導覽"><div class="ch-meta-row"><div class="ch-meta-k">在流程中的位置</div><div class="ch-meta-v"><figure class="figure flow"><img src="images-2/image96.webp" width="2000" height="246" alt="本章在全書流程中的位置" loading="lazy"></figure></div></div><div class="ch-meta-row"><div class="ch-meta-k">學習目標</div><div class="ch-meta-v"><ol class="circled">
+<li>說明三角驗證為什麼要由居民、文史專家與使用者共同完成</li>
+<li>區分地方辨識度、文化適切性與當代可用性，並對照商品與遊程的指標</li>
+<li>設計五點量表、題目與開放題，寫出一頁驗證計畫</li>
+<li>判讀分數的分布、分歧與少數意見，建立改版矩陣</li>
+<li>把問題回流到正確的上游成果，並留下前後比較與迭代紀錄</li>
+</ol></div></div><div class="ch-meta-row"><div class="ch-meta-k">關鍵詞</div><div class="ch-meta-v"><div class="chips"><span class="chip">三角驗證</span><span class="chip">地方辨識度</span><span class="chip">文化適切性</span><span class="chip">當代可用性</span><span class="chip">五點量表</span><span class="chip">一票否決</span><span class="chip">改版矩陣</span><span class="chip">迭代紀錄</span></div></div></div><div class="ch-meta-row"><div class="ch-meta-k">本章成果</div><div class="ch-meta-v"><p>驗證計畫、量表與測試紀錄、改版矩陣、迭代紀錄（用來驗證成果1–9，本身不另列成果）。</p></div></div></section><aside class="callout tone-gold"><div class="callout-label"><span aria-hidden="true">◆</span>重點觀念</div><p class="callout-title"><strong>一句話記住這一章</strong></p><p><strong>驗證不是請人說好聽的話，而是請地方、專家與使用者一起找出設計哪裡不對。</strong> 意見要分群組讀、少數意見要保留、每一項改版都要有證據，設計的最終詮釋權，永遠在地方。</p></aside>
+<h2 id="s12-1"><span class="sec-num">12.1</span><span>驗證是整條轉譯鏈的校準</span><a class="anchor-link" href="#s12-1" aria-label="本節連結">#</a></h2>
+<p>「先研究、再萃取、後轉譯、最後驗證」的最後一步，並不是把前面做好的東西交出去給人打分數。轉譯是把地方意義變成色彩、圖紋、商品與遊程，每一步都可能走偏：DNA判讀偏了，色彩就偏；用字不對，故事卡就失禮；圖樣踩到禁忌，整個商品都不能用。驗證的任務是在成果交出去之前，找出這些偏差，並且找得出「偏在哪一個上游成果」。</p>
+<p>本書採用「三角驗證」：當地居民確認地方共識，文史專家檢核文化適切性，終端使用者測試當代可用性，三方各自回答不同的問題，缺一不可（<a class="xref" href="#fig-12-1">圖12.1</a>）。</p>
+<p>三個常見的誤解要先釐清：</p>
+<ul>
+<li><strong>驗證不是民意調查。</strong> 目的是找出問題與判斷方向，樣本小、題目少是常態，不需要也不應該做統計推論。</li>
+<li><strong>驗證不是找人背書。</strong> 不能只問「你喜歡嗎」，也不能只找熟人；要讓不同立場的人有機會說「不像」。</li>
+<li><strong>驗證不是做一次就結束。</strong> 每個階段都有小驗證，階段6把前五個階段串起來做總驗證，改完還要再測一次。</li>
+</ul>
+<p>以人為本的設計方法，同樣把「用原型向真實的人取得回饋，再修改」視為核心做法〔文4〕。本書在此之外多加一條：地方的人不只是受測者，也是文化意義的詮釋者。</p>
+<figure class="figure wide" id="fig-12-1"><img src="images-2/image97.webp" width="2000" height="1106" alt="三角驗證：居民、文史專家與使用者各自回答不同的問題" loading="lazy" decoding="async"><figcaption><b>圖12.1</b>　三角驗證：居民、文史專家與使用者各自回答不同的問題</figcaption></figure>
+<aside class="callout tone-purple fig-read"><div class="callout-label">這張圖怎麼讀</div><p>三個圓是三種驗證者，中間是正在被檢查的概念或原型，虛線箭頭代表意見回饋給設計者、再回到下一輪。</p>
+<p>右側三列各寫出一位驗證者的核心提問、驗什麼與怎麼驗。</p>
+<p>底部橫條是意見衝突時的處理原則：不取平均，衝突處進入協商與改版矩陣。</p></aside>
+<h2 id="s12-2"><span class="sec-num">12.2</span><span>驗什麼：三個問題、四套量尺</span><a class="anchor-link" href="#s12-2" aria-label="本節連結">#</a></h2>
+<p>每一份成果都要回答三個問題：<strong>地方辨識度</strong>（這像不像我們的家鄉？）、<strong>文化適切性</strong>（符號的使用，合不合傳統與禁忌？）、<strong>當代可用性</strong>（商品與遊程是否具備吸引力、用不用得起來？）。三個問題不是同時要在每個階段回答：階段1–3主要驗證證據與語意是否站得住，階段4驗證辨識度與適切性，階段5加上可用性，階段6做前後比較與總結（<a class="xref" href="#fig-12-2">圖12.2</a>）。</p>
+<figure class="figure wide" id="fig-12-2"><img src="images-2/image98.webp" width="2000" height="898" alt="六個階段的驗證點：驗什麼、誰來驗" loading="lazy" decoding="async"><figcaption><b>圖12.2</b>　六個階段的驗證點：驗什麼、誰來驗</figcaption></figure>
+<p>本書前面幾章出現過幾套量尺：驗證階段的四類判準（真實性、文化適切性、吸引力、可行性）、商品的五項指標、遊程的六項指標。它們不是各說各話，而是同一組問題在不同成果上的具體化（<a class="xref" href="#tbl-12-1">表12.1</a>）。</p>
+<div class="table-wrap wide" id="tbl-12-1" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.1</strong>　三個驗證問題與各套量尺的對照（本書整理）</div><table data-cols="4"><thead><tr><th><strong>驗證問題</strong></th><th><strong>四類判準</strong></th><th><strong>商品五項指標（第<a class="xref" href="ch10.html">10</a>章）</strong></th><th><strong>遊程六項指標（第<a class="xref" href="ch11.html">11</a>章）</strong></th></tr></thead><tbody><tr><td class="tint"><strong>地方辨識度</strong></td><td>真實性</td><td>地方性（×3）</td><td>地方深度（×2）</td></tr><tr><td class="tint"><strong>文化適切性</strong></td><td>文化適切性</td><td>地方性（含禁忌與授權檢查）</td><td>地方深度、社區受益（含同意與授權）</td></tr><tr><td class="tint"><strong>當代可用性</strong></td><td>吸引力、可行性</td><td>實用性、吸引力、可行性、永續性</td><td>流暢性、時間合理性、感官豐富度、可及性</td></tr></tbody></table></div>
+<p class="note">對照由本書整理，用意是讓同一個問題在不同階段用同一個說法；實際作業以各章指標與權重為準。</p>
+<p>文化適切性有一個特別的規則：它不是「分數愈高愈好」的指標，而是門檻。居民或專家認為失禮、有禁忌或未經授權的內容，不論其他人給幾分，都不能通過（<a class="xref" href="#s12-5">12.5</a>節說明處理方式）。</p>
+<h2 id="s12-3"><span class="sec-num">12.3</span><span>誰來驗：三種受測者與一頁驗證計畫</span><a class="anchor-link" href="#s12-3" aria-label="本節連結">#</a></h2>
+<p>受測者要涵蓋三種立場。崙背商品示範的原型測試配置為旅客5人、居民2人、通路人員1人，第二輪保持同樣組成、旅客換為新受試者；竹山遊程示範則由4–10人試走。這些人數是教學示範的規模<strong><span class="tag tag-demo">示範假設</span></strong>：小樣本適合找出問題，不適合推算比例；重要的是三種立場都在場，並且每一輪的組成可以比較（<a class="xref" href="#tbl-12-2">表12.2</a>）。</p>
+<div class="table-wrap wide" id="tbl-12-2" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.2</strong>　三種受測者的配置與注意事項</div><table data-cols="4"><thead><tr><th><strong>對象</strong></th><th><strong>驗什麼</strong></th><th><strong>怎麼驗</strong></th><th><strong>注意事項</strong></th></tr></thead><tbody><tr><td class="tint"><strong>居民與職人</strong></td><td>地方辨識度、用字與讀音、禁忌與用途</td><td>居民工作坊、一對一訪談、把成果放在現場請他們看</td><td>用他們的話記錄；不可只問一位；結果回饋給社區</td></tr><tr><td class="tint"><strong>文史專家、耆老、工藝專家</strong></td><td>文化適切性、史實與來源、工藝是否被誤用</td><td>專家審查表、書面審閱、小型討論</td><td>請專家寫出依據；意見不同時並列，不替他們取捨</td></tr><tr><td class="tint"><strong>目標旅客、消費者</strong></td><td>看得懂、想不想買或參加、價格與使用</td><td>概念測試、原型測試、遊程試走</td><td>找真正的目標客群，不找同組同學充數；不誘導給高分</td></tr><tr><td class="tint"><strong>通路與服務人員</strong></td><td>可行性：進貨、陳列、接待、運送、成本</td><td>通路訪談、試擺或試運作</td><td>請他們指出最可能出問題的一環</td></tr></tbody></table></div>
+<p>每一次驗證前，先寫一頁驗證計畫，讓整個團隊對「要驗什麼、怎麼判斷、結果怎麼用」有共識（<a class="xref" href="#tbl-12-3">表12.3</a>）。</p>
+<div class="table-wrap" id="tbl-12-3" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.3</strong>　一頁驗證計畫（以崙背原型測試v1為例，示範假設）</div><table data-cols="2"><thead><tr><th><strong>項目</strong></th><th><strong>要寫什麼（示範）</strong></th></tr></thead><tbody><tr><td class="tint"><strong>驗證目的</strong></td><td>找出火把小夜燈原型在地方辨識度、實用性、吸引力、可行性與永續性的問題</td></tr><tr><td class="tint"><strong>驗證階段與版本</strong></td><td>階段5 → 6；原型v1（手工竹編燈罩、彩色印刷盒、紙漿內襯、雙面彩印故事卡）</td></tr><tr><td class="tint"><strong>受測者與人數</strong></td><td>旅客5人、居民2人、通路人員1人；第二輪組成相同、旅客換人</td></tr><tr><td class="tint"><strong>測試物與流程</strong></td><td>先看外觀並說出第一印象 → 說明用途後再看 → 操作與開箱 → 填量表與開放題</td></tr><tr><td class="tint"><strong>量表與題目</strong></td><td>五項指標與購買意願（1–5分）、地方共識三題；三個開放題並留「原話」欄</td></tr><tr><td class="tint"><strong>倫理與同意</strong></td><td>說明目的並取得同意；照片與錄音須同意；不誘導給高分；保留不同意見</td></tr><tr><td class="tint"><strong>判讀規則</strong></td><td>分群組看分布；文化禁忌、授權與安全意見一票否決；高優先項目改完要再測</td></tr><tr><td class="tint"><strong>結果用途</strong></td><td>產出改版矩陣；依回流規則回到上游成果修改；結果回饋給居民與專家</td></tr></tbody></table></div>
+<p class="note">範本見<a class="xref" href="appendix-a.html">附錄A</a>「12人機協作成果驗證表」與各成果的概念或原型測試紀錄表；本頁計畫可直接複製使用。</p>
+<h3 id="h1">原型要做到多精，才能回答這個問題</h3>
+<p>測試之前，先決定要用哪一級的原型。原型的精度要跟著問題走：想知道故事能不能被理解，一張故事卡與情境模擬圖就夠；想知道包裝能不能攜帶，要用1:1的紙樣讓人真的裝進常用的包袋；想知道燈具的光熱與耐用，就必須有能操作的功能樣（<a class="xref" href="#fig-12-3">圖12.3</a>）。</p>
+<figure class="figure wide" id="fig-12-3"><img src="images-2/image99.webp" width="2000" height="812" alt="問題決定原型精度：每一級回答不同的問題，也各有不能證明的事" loading="lazy" decoding="async"><figcaption><b>圖12.3</b>　問題決定原型精度：每一級回答不同的問題，也各有不能證明的事</figcaption></figure>
+<p>情境模擬圖（包括AI生成的概念圖）適合比較外觀與敘事，卻不能證明結構、安全、續航或印刷效果，也不能取代實物測試。每個原型都要在測試紀錄裡寫明它的精度，讀的人才知道結論能走多遠。</p>
+<p>測試計畫的核心，可以濃縮成六件事：<strong>假設、對象、任務、觀察指標、通過條件，以及失敗之後的行動</strong>（<a class="xref" href="#tbl-12-3">表12.3</a>有更完整的版本）。通過條件要盡量在測試之前訂好；若事後修改，要說明理由。課堂可以先用小樣本找出問題，但不能因此宣稱市場需求已被驗證，或具有統計代表性。</p>
+<h2 id="s12-4"><span class="sec-num">12.4</span><span>怎麼問：量表、題目與開放意見</span><a class="anchor-link" href="#s12-4" aria-label="本節連結">#</a></h2>
+<p>量表採用五點制，每一點都附文字說明，受測者才知道分數的意思；「不知道」另設一格。題目依三個驗證問題各出三題，每題只問一個概念，並且用受測者聽得懂的白話（<a class="xref" href="#fig-12-4">圖12.4</a>）。</p>
+<figure class="figure wide" id="fig-12-4"><img src="images-1/image100.webp" width="2000" height="1044" alt="五點量表、三個驗證問題的題目範例與開放題" loading="lazy" decoding="async"><figcaption><b>圖12.4</b>　五點量表、三個驗證問題的題目範例與開放題</figcaption></figure>
+<p>寫題目有四個要點：</p>
+<ul>
+<li><strong>一題一概念。</strong>「好看又好用」要拆成兩題，否則受測者答不出分數。</li>
+<li><strong>不暗示答案。</strong> 問「這個設計是否傳達了竹編的精神」就是誘導；改問「看到它，你想到什麼？」</li>
+<li><strong>先自由回答，再給量表。</strong> 先請受測者說第一印象，再說明用途，避免被說明影響判斷；崙背示範中「5位旅客有3人先猜是燈籠」，就是先看後說明才得到的證據。</li>
+<li><strong>留下原話。</strong> 分數告訴你「有問題」，原話告訴你「什麼問題」。例如「亮是亮，但不像火」直接指向光色，這句話比一個3分有用得多。</li>
+</ul>
+<h3 id="h2">每個測試，都要先想好它能得到什麼結論</h3>
+<p>同一個分數，可能來自不同原因：可行性低，可能是成本、產能或操作；地方性低，可能是不認得來源，也可能是認得卻覺得不適切。所以每個重要的分數，都要附上觀察或原話。<a class="xref" href="#tbl-12-4">表12.4</a>列出五種常見的測試問題，並寫明每一種測試可以得到、不能得到的結論。</p>
+<div class="table-wrap" id="tbl-12-4" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.4</strong>　測試問題、任務與可得到的結論</div><table data-cols="3"><thead><tr><th><strong>測試問題</strong></th><th><strong>任務與指標</strong></th><th><strong>可得到的結論</strong></th></tr></thead><tbody><tr><td class="tint"><strong>故事是否看懂</strong></td><td>看過卡片後，自行回述地方的關係</td><td>找出理解與誤解；不等於文化正確</td></tr><tr><td class="tint"><strong>開關是否好找</strong></td><td>不提示操作，記錄時間與錯誤次數</td><td>檢查介面與說明；不等於電器安全</td></tr><tr><td class="tint"><strong>包裝是否適合</strong></td><td>實際取放、攜帶、拆裝</td><td>發現結構與流程的問題</td></tr><tr><td class="tint"><strong>方案是否適切</strong></td><td>請地方角色自由回應，再討論設計意圖</td><td>呈現分歧與修改方向</td></tr><tr><td class="tint"><strong>價格是否合理</strong></td><td>與替代品比較，並放進實際購買情境</td><td>探索接受範圍；不以購買意願代替銷量</td></tr></tbody></table></div>
+<h2 id="s12-5"><span class="sec-num">12.5</span><span>怎麼讀：平均、分布與少數意見</span><a class="anchor-link" href="#s12-5" aria-label="本節連結">#</a></h2>
+<p>整理資料時，最容易犯的錯是只算平均。<a class="xref" href="#fig-12-5">圖12.5</a>用一個假設的題目說明：8位受測者的平均是3.9分，看起來過關，但兩位居民給了1分與2分。把居民與旅客混在一起算平均，旅客的高分就稀釋了居民的警訊。</p>
+<figure class="figure wide" id="fig-12-5"><img src="images-1/image101.webp" width="2000" height="890" alt="平均會掩蓋分歧：同一題的分數分布" loading="lazy" decoding="async"><figcaption><b>圖12.5</b>　平均會掩蓋分歧：同一題的分數分布</figcaption></figure>
+<p>判讀分數有三道步驟：</p>
+<ul>
+<li><strong>先看分布，再看平均。</strong> 每題畫出每位受測者的分數，找出離群的點。</li>
+<li><strong>分群組看。</strong> 旅客、居民、專家、通路各自的平均與分布分開列出；兩群組的分數差達2分以上，列為「分歧」，進入討論。</li>
+<li><strong>少數意見先保留。</strong> 只有一個人說的意見不能因為「沒有共識」就刪掉；它可能是唯一知道內情的人。不刪除，標註人數，由小組與居民或專家共同判斷。</li>
+</ul>
+<aside class="callout tone-warn"><div class="callout-label"><span aria-hidden="true">!</span>常見錯誤</div><p class="callout-title"><strong>初學者容易犯的錯</strong></p><p>只報告平均分數，不呈現分布與各群組的差異，也不附原話。</p>
+<p>把居民、專家與旅客的分數合在一起取平均，讓外來者的好感蓋過居民的否決。</p>
+<p>受測者人數太少卻用百分比表示（例如「67%滿意」），看起來像統計其實是三個人中的兩個人。</p>
+<p>為了讓分數好看，改版後換成比較友善的受測者，或把不同組成的兩輪分數直接比較。</p></aside>
+<aside class="callout tone-case"><div class="callout-label"><span aria-hidden="true">◎</span>實踐案例</div><p class="callout-title"><strong>居民的一句話，改了圖紋與包裝</strong></p><p>崙背示範的原型測試中，居民指出：「不要有神轎、符令那一類的圖樣。盒子上要寫清楚是紀念品，不是祭祀用品。」這句話出現後，不論旅客給幾分，都屬於一票否決。</p>
+<p>改版做法有兩項：圖紋只使用火點與瓜網；盒背標示「紀念品，非祭祀用品」。這是一個文化適切性問題，要回到成果7（圖紋）與包裝文案修改，而不只是在商品上遮掉圖樣<strong><span class="tag tag-demo">示範假設</span></strong>。</p></aside>
+<h2 id="s12-6"><span class="sec-num">12.6</span><span>改版矩陣：從意見到行動</span><a class="anchor-link" href="#s12-6" aria-label="本節連結">#</a></h2>
+<p>整理完意見之後，要把它們轉成改版矩陣。每一列包含：問題、證據（人數、原話、實測數字）、影響的指標、改版做法、優先順序、負責人與確認方式。優先順序用兩個條件判斷：影響多大、修改成本多高；牽涉文化禁忌、授權或安全的，直接列為一票否決（<a class="xref" href="#fig-12-6">圖12.6</a>）。</p>
+<figure class="figure wide" id="fig-12-6"><img src="images-1/image102.webp" width="2000" height="1048" alt="改版優先順序：先處理一票否決，再依影響與成本排序" loading="lazy" decoding="async"><figcaption><b>圖12.6</b>　改版優先順序：先處理一票否決，再依影響與成本排序</figcaption></figure>
+<p><a class="xref" href="#tbl-12-5">表12.5</a>以崙背原型測試v1的問題為例，列出完整的改版矩陣欄位。請注意，「確認方式」這一欄決定改版有沒有被證明有效：不是改了就算數，而是在下一輪測試中，用同樣的題目或觀察重新確認。</p>
+<div class="table-wrap wide" id="tbl-12-5" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.5</strong>　改版矩陣（崙背原型測試v1，示範假設）</div><table class="plain" data-cols="6"><thead><tr><th><strong>問題</strong></th><th><strong>證據</strong></th><th><strong>影響指標</strong></th><th><strong>改版做法</strong></th><th><strong>優先</strong></th><th><strong>確認方式</strong></th></tr></thead><tbody><tr><td class="tint"><strong>圖樣與用途</strong></td><td>居民：不要神轎、符令；要寫清楚不是祭祀用品</td><td>地方性</td><td>圖紋只用火點與瓜網；盒背標示「紀念品，非祭祀用品」</td><td>高（一票否決）</td><td>請居民與崇賢寺確認；v2再問居民</td></tr><tr><td class="tint"><strong>找不到開關</strong></td><td>8人中4人找不到</td><td>實用性</td><td>開關移到側邊並加凹點</td><td>高</td><td>v2操作測試，找不到者降為0</td></tr><tr><td class="tint"><strong>客語用字不對</strong></td><td>「拼音看不懂」；居民指出用字不對</td><td>地方性</td><td>由詔安好伴屋與居民審訂，拼音旁加華語，音檔放QR<strong><span class="tag tag-tbc">待確認</span></strong></td><td>高</td><td>居民書面確認用字與讀音</td></tr><tr><td class="tint"><strong>售價偏高</strong></td><td>「一千多有點貴，八百多可以考慮」</td><td>可行性</td><td>簡化編法、單色印刷、改小電池，定價860元</td><td>高</td><td>v2購買意願與價格接受度</td></tr><tr><td class="tint"><strong>光色不像火</strong></td><td>「亮是亮，但不像火」</td><td>吸引力</td><td>改偏橘的暖光，加大編孔<strong><span class="tag tag-tbc">待確認</span></strong></td><td>中</td><td>v2打樣後旅客評分</td></tr><tr><td class="tint"><strong>寄送壓損</strong></td><td>試寄3件中1件壓損</td><td>可行性</td><td>內襯卡位並加燈罩護套</td><td>中</td><td>改版後重新試寄</td></tr></tbody></table></div>
+<p class="note">原型測試的完整紀錄與評分見第<a class="xref" href="ch10.html">10</a>章；本表補充了優先順序與確認方式兩欄。</p>
+<h2 id="s12-7"><span class="sec-num">12.7</span><span>回流：問題回到哪個階段改</span><a class="anchor-link" href="#s12-7" aria-label="本節連結">#</a></h2>
+<p>改版最容易犯的錯，是只在最後一個成果上修修補補。問題的根源常在上游：旅客認不出是這個地方，可能是DNA或脈絡判讀偏了；客語用字不對，要回到文化語彙；圖樣有禁忌，要回到圖紋與設計語彙。<a class="xref" href="#fig-12-7">圖12.7</a>列出七種常見問題與回流位置。</p>
+<figure class="figure wide" id="fig-12-7"><img src="images-1/image103.webp" width="2000" height="1260" alt="驗證發現的問題，要回到對應的上游成果修改" loading="lazy" decoding="async"><figcaption><b>圖12.7</b>　驗證發現的問題，要回到對應的上游成果修改</figcaption></figure>
+<aside class="callout tone-purple fig-read"><div class="callout-label">這張圖怎麼讀</div><p>左欄是驗證時聽到的問題，中欄是應該回去修改的成果與階段，右欄是示範中對應的改法。</p>
+<p>回流後，凡是被修改的上游成果，都要重新通過自己那一關的檢核，再往下游走（例如圖紋修改後，須重新做無縫檢查與套版檢核）。</p></aside>
+<p>回流時要注意一件事：上游一改，下游可能要跟著改。圖紋的使用規則改了，商品包裝與遊程導覽摺頁都要檢查；色名改了，故事卡與數位導覽的文字也要同步。所以每次回流後，要回到<a class="xref" href="appendix-c.html">附錄C</a>的各階段檢核表與「地方視覺系統一致性檢核表」（範本14），確認全部成果仍然說同一個故事。</p>
+<h2 id="s12-8"><span class="sec-num">12.8</span><span>前後比較與迭代紀錄</span><a class="anchor-link" href="#s12-8" aria-label="本節連結">#</a></h2>
+<p>改版之後，用同樣的題目、同樣的組成再測一次，才能比較。崙背示範的加權總分由36.4分提高到41.6分，購買意願由3.2提高到4.0；竹山遊程示範的路線評分由24分提高到28分（滿分35）。這些數字都是教學示範的假設值，作用是示範如何呈現前後差異，不是方法有效的證明<strong><span class="tag tag-demo">示範假設</span></strong>。</p>
+<p>比較v1與v2時，要同時說明受試者是否相同、任務是否一致，以及兩版原型有哪些差異。若換了不同的受試者，分數變高不一定全由設計造成；若同一批人重複測試，也可能有熟悉效果。課堂中的改版可以用這些數字找方向，但不要過度宣稱因果或「顯著提升」。</p>
+<aside class="callout tone-blue"><div class="callout-label"><span aria-hidden="true">✎</span>練習</div><p class="callout-title"><strong>前後比較的判讀</strong></p><p>「八人測試，平均購買意願由3.4升到4.1」，能否證明商品會暢銷？</p>
+<p>判讀參考：不能。還需要樣本的組成、任務、情境、分布與真實交易資料；本書中的這組數字更是模擬值，只能用來練習分析。</p></aside>
+<p>每一輪都要留下迭代紀錄，讓別人看得懂「改了什麼、為什麼改、結果如何」（<a class="xref" href="#tbl-12-6">表12.6</a>）。</p>
+<div class="table-wrap wide" id="tbl-12-6" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表12.6</strong>　迭代紀錄（示範假設）</div><table class="plain" data-cols="5"><thead><tr><th><strong>版本</strong></th><th><strong>時間</strong></th><th><strong>改了什麼</strong></th><th><strong>依據的證據</strong></th><th><strong>結果與決策</strong></th></tr></thead><tbody><tr><td class="tint"><strong>崙背v1</strong></td><td>8月</td><td>手工竹編燈罩、彩色印刷盒、紙漿內襯、雙面彩印故事卡</td><td>——（初版）</td><td>加權36.4；購買意願3.2；進入改版</td></tr><tr><td class="tint"><strong>崙背v2</strong></td><td>9月中至11月初</td><td>簡化編法、單色印刷、瓦楞紙卡內襯與護套、側邊開關、偏橘暖光</td><td><a class="xref" href="#tbl-12-5">表12.5</a>列出的六項問題</td><td>加權41.6；購買意願4.0；續測</td></tr><tr><td class="tint"><strong>竹山 試走一</strong></td><td>——</td><td>依初版時刻表走完全程，記錄各站實測時間</td><td>元泰竹藝社計畫50分、實測75分</td><td>路線評分24；調整停留時間與午餐安排</td></tr><tr><td class="tint"><strong>竹山 試走二</strong></td><td>——</td><td>重排時刻表，增加備援與帶回家完成的做法</td><td>試走一的實測數字與旅客原話</td><td>路線評分28；可及性（停車）仍待解決</td></tr></tbody></table></div>
+<p>什麼時候可以停止迭代？沒有放諸四海皆準的答案，但可以先約定三個停止條件：①沒有未解決的一票否決項目；②高優先項目都改過並通過再測；③剩餘問題已列入「待確認」與下一輪任務，並寫明負責人。資源有限而問題沒有解決時，要誠實寫在成果裡，而不是假裝已經完成。</p>
+<p>最後，把驗證的結果帶回地方。給居民與專家看改版後的成果，說明他們的意見改變了什麼、沒有採用的意見為什麼不採用。這既是倫理，也是下一輪驗證能被信任的基礎。</p>
+<h2 id="s12-9"><span class="sec-num">12.9</span><span>AI協作：彙整與編碼可以，替受測者回答不行</span><a class="anchor-link" href="#s12-9" aria-label="本節連結">#</a></h2>
+<p>AI適合做三件事：彙整量表分數與分布、把開放意見逐筆編碼、依規則草擬改版矩陣。它不能做的事更重要：不能虛構受測者的回饋，不能替居民或專家判定文化適切，也不能宣告「已經改好了」。用AI扮演的「虛擬使用者」所給的意見，可以作為設計時的思考提示，但不能當作驗證證據。</p>
+<div class="prompt-card"><div class="pc-head"><span class="pc-code">W6</span><span class="pc-title">彙整量表與開放意見，產出改版矩陣</span><button class="copy-btn" type="button" aria-label="複製提示詞">複製</button></div><div class="pc-body"><p>根據我提供的量表分數與開放意見：<span class="ph">【貼上，註明每筆來自旅客、居民、專家或通路人員】</span>，整理：①各題平均與分布（分群組呈現）；②共通問題與分歧；③依「地方辨識度／文化適切性／當代可用性」分類；④產出高／中／低優先的改版矩陣：問題｜證據（人數或原話）｜影響指標｜建議改版｜建議回流階段。保留少數意見，不自行刪除離群回饋；涉及文化禁忌、授權或安全的意見一律標「一票否決」；資料不足處標「待確認」，不要補寫不存在的回饋。</p></div></div>
+<p class="note">提示詞依張文山〈地方DNA設計轉譯〉階段6「驗證迭代」的AI協作設計整理；第三版-2提示詞原文見<a class="xref" href="appendix-b.html">附錄B</a>。</p>
+<div class="prompt-card"><div class="pc-head"><span class="pc-code">W6-2</span><span class="pc-title">起草驗證計畫與量表題目</span><button class="copy-btn" type="button" aria-label="複製提示詞">複製</button></div><div class="pc-body"><p>依以下成果與測試目的：<span class="ph">【貼上：成果類型、目前階段、受測者類型與人數】</span>，起草一頁驗證計畫與量表題目：每個驗證問題三題、每題只問一個概念、五點量表附文字說明、三個開放題，另列同意說明與「不誘導」的提問提醒。題目只是草稿，須經小組與居民或專家審閱後才能使用。</p></div></div>
+<div class="prompt-card"><div class="pc-head"><span class="pc-code">W6-3</span><span class="pc-title">開放意見編碼，不合併少數意見</span><button class="copy-btn" type="button" aria-label="複製提示詞">複製</button></div><div class="pc-body"><p>請把以下開放意見逐筆編碼：<span class="ph">【貼上，保留原話與受測者代號】</span>。每筆標註：主題｜指向的成果（成果1–9）｜情緒（正向／中性／負向）。編碼後列出各主題的筆數與代表原話，另列「只有一人提到」的意見，不得合併或刪除；不要替受測者推測沒說出口的想法。</p></div></div>
+<aside class="callout tone-green"><div class="callout-label"><span aria-hidden="true">☑</span>證據包</div><p class="callout-title"><strong>本階段最低成果證據包</strong></p><p class="check">　一頁驗證計畫（目的、版本、受測者與人數、流程、量表、倫理與同意、判讀規則、結果用途）</p>
+<p class="check">　量表題目與開放題；受測者同意紀錄；測試紀錄（含原話與受測者代號）</p>
+<p class="check">　各題分布圖與分群組平均；分歧與少數意見清單</p>
+<p class="check">　改版矩陣（問題、證據、影響指標、改版做法、優先順序、負責人、確認方式）</p>
+<p class="check">　迭代紀錄（版本、時間、改動、證據、結果與決策）與回流後的上游成果修訂紀錄</p>
+<p class="check">　待確認清單與下一輪任務；結果回饋給居民與專家的紀錄；AI協作紀錄（範本11、12）</p></aside>
+<aside class="callout tone-blue"><div class="callout-label"><span aria-hidden="true">✎</span>練習</div><p class="callout-title"><strong>課堂練習</strong></p><p>①　為你的成果寫一頁驗證計畫，並說明為什麼三種驗證者都需要。</p>
+<p>②　依三個驗證問題各設計三題量表題與三個開放題，找一位同學試答，檢查是否有「一題問兩件事」或誘導的字眼。</p>
+<p>③　假設你收集到8份量表，請畫出分數分布並分群組計算，找出一個「平均沒問題、但某群組有警訊」的題目。</p>
+<p>④　從測試紀錄中列出至少五個問題，建立改版矩陣，並為每一項標出應回流的上游成果。</p>
+<p>⑤　寫出你的停止迭代條件，並列出哪些問題要帶到下一輪、由誰負責。</p></aside>
+<aside class="callout tone-gray"><div class="callout-label"><span aria-hidden="true">≡</span>小結</div><p class="callout-title"><strong>本章小結</strong></p><p>1.　三角驗證由居民、文史專家與使用者共同進行，各回答地方辨識度、文化適切性與當代可用性；意見衝突時不取平均，而是協商。</p>
+<p>2.　驗證從階段1開始，階段6是前五階段的總驗證；愈晚發現問題，改的成本愈高。</p>
+<p>3.　四套量尺是同一組問題的不同說法；文化適切性是門檻，不是分數愈高愈好。</p>
+<p>4.　先寫一頁驗證計畫；量表一題一概念、不暗示答案，並留下原話。</p>
+<p>5.　判讀時先看分布、分群組、保留少數意見；文化禁忌、授權與安全意見一票否決。</p>
+<p>6.　改版矩陣要有證據、優先順序與確認方式；問題要回流到上游成果修改，改完再測。</p>
+<p>7.　用迭代紀錄呈現前後差異，誠實寫出尚未解決的問題；AI可彙整與編碼，不可虛構回饋或代替地方判斷。</p></aside></div><nav class="pager" aria-label="上一章與下一章"><a class="prev" href="ch11.html"><span class="dir">← 上一章</span><span class="ttl">第 11 章　地方深度體驗遊程設計</span></a><a class="next" href="ch13.html"><span class="dir">下一章 →</span><span class="ttl">第 13 章　人機協作的原則與分工</span></a></nav><footer class="page-foot"><span>《地方 DNA 設計轉譯》張文山　審閱編修稿 3.3 整合版（2026 年 10 月）</span><span>快捷鍵：<kbd>/</kbd> 搜尋　<kbd>←</kbd><kbd>→</kbd> 換章</span></footer></article></main>
+  </div>
+</div>
+<button class="to-top" type="button" aria-label="回到頁首"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="search-dlg" id="searchDlg" role="dialog" aria-modal="true" aria-label="搜尋全書" hidden>
+  <div class="search-box">
+    <div class="search-field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="searchInput" type="search" placeholder="搜尋全書內容…" autocomplete="off" aria-controls="searchResults" aria-label="搜尋關鍵字"><kbd>Esc</kbd><button class="icon-btn search-close" type="button" data-close-search>取消</button></div>
+    <ul class="search-results" id="searchResults" role="listbox"></ul>
+    <div class="search-foot"><span><kbd>↑</kbd><kbd>↓</kbd> 選擇</span><span><kbd>Enter</kbd> 前往</span><span><kbd>Esc</kbd> 關閉</span></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" hidden><button class="icon-btn" type="button" aria-label="關閉圖片"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><div><img alt=""><p></p></div></div>
+<script src="assets/js/book.js" defer></script>
+</body>
+</html>

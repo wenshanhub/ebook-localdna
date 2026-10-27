@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>第 17 章　完整案例：一條可追溯的轉譯鏈｜地方 DNA 設計轉譯</title>
+<meta name="description" content="第 17 章　完整案例：一條可追溯的轉譯鏈｜地方 DNA 設計轉譯：從地方理解到設計實踐的方法論與 AI 協作">
+<meta name="author" content="張文山">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="第 17 章　完整案例：一條可追溯的轉譯鏈｜地方 DNA 設計轉譯">
+<meta property="og:description" content="第 17 章　完整案例：一條可追溯的轉譯鏈｜地方 DNA 設計轉譯：從地方理解到設計實踐的方法論與 AI 協作">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#1d5c58">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="prev" href="ch16.html"><link rel="next" href="ch18.html">
+<script>(function(){try{var g=function(k,d){var v=localStorage.getItem('dna-book:'+k);return v===null?d:JSON.parse(v)};var r=document.documentElement,t=g('theme','auto');if(t!=='auto')r.setAttribute('data-theme',t);r.setAttribute('data-font',g('font','serif'));r.style.setProperty('--fs-base',g('size',18)+'px');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Noto+Serif+TC:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="assets/css/book.css">
+</head>
+<body data-part="4" data-page="ch17" data-title="第 17 章　完整案例：一條可追溯的轉譯鏈">
+<a class="skip-link" href="#main">跳到內文</a>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="全書目錄">
+    <div class="sb-head">
+      <a class="sb-brand" href="index.html">
+        <span class="sb-mark" aria-hidden="true"></span>
+        <span><span class="sb-title">地方 DNA 設計轉譯</span><span class="sb-sub" style="display:block">張文山　著</span></span>
+      </a>
+      <button class="sb-search" type="button" data-open-search><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>搜尋全書…</span><kbd>/</kbd></button>
+    </div>
+    <nav class="sb-nav" aria-label="章節"><ol><li class="toc-part" data-part="front"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label"></span><span>開始閱讀</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="about"><a class="toc-link" href="about.html"><span>編寫說明</span></a></li><li class="toc-item" data-page="preface"><a class="toc-link" href="preface.html"><span>前言：如何使用本書</span></a></li></ol></li><li class="toc-part" data-part="part-1"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第一篇</span><span>觀念篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch01"><a class="toc-link" href="ch01.html"><span class="toc-num">1</span><span>地方創生為什麼要先理解地方？</span></a></li><li class="toc-item" data-page="ch02"><a class="toc-link" href="ch02.html"><span class="toc-num">2</span><span>什麼是地方DNA</span></a></li><li class="toc-item" data-page="ch03"><a class="toc-link" href="ch03.html"><span class="toc-num">3</span><span>從DNA到魅力到設計</span></a></li></ol></li><li class="toc-part" data-part="part-2"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第二篇</span><span>方法篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch04"><a class="toc-link" href="ch04.html"><span class="toc-num">4</span><span>方法論全景</span></a></li><li class="toc-item" data-page="ch05"><a class="toc-link" href="ch05.html"><span class="toc-num">5</span><span>證據蒐集</span></a></li><li class="toc-item" data-page="ch06"><a class="toc-link" href="ch06.html"><span class="toc-num">6</span><span>DNA萃取與脈絡分析</span></a></li><li class="toc-item" data-page="ch07"><a class="toc-link" href="ch07.html"><span class="toc-num">7</span><span>感知與語意</span></a></li><li class="toc-item" data-page="ch08"><a class="toc-link" href="ch08.html"><span class="toc-num">8</span><span>地方色彩</span></a></li><li class="toc-item" data-page="ch09"><a class="toc-link" href="ch09.html"><span class="toc-num">9</span><span>地方圖紋與四方連續樣式圖</span></a></li><li class="toc-item" data-page="ch10"><a class="toc-link" href="ch10.html"><span class="toc-num">10</span><span>地方特色商品設計</span></a></li><li class="toc-item" data-page="ch11"><a class="toc-link" href="ch11.html"><span class="toc-num">11</span><span>地方深度體驗遊程設計</span></a></li><li class="toc-item" data-page="ch12"><a class="toc-link" href="ch12.html"><span class="toc-num">12</span><span>驗證與迭代</span></a></li></ol></li><li class="toc-part" data-part="part-3"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第三篇</span><span>AI協作篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch13"><a class="toc-link" href="ch13.html"><span class="toc-num">13</span><span>人機協作的原則與分工</span></a></li><li class="toc-item" data-page="ch14"><a class="toc-link" href="ch14.html"><span class="toc-num">14</span><span>各階段的提示詞與紀錄</span></a></li><li class="toc-item" data-page="ch15"><a class="toc-link" href="ch15.html"><span class="toc-num">15</span><span>品質、倫理與文化權利</span></a></li></ol></li><li class="toc-part" data-part="part-4"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label">第四篇</span><span>實踐篇</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="ch16"><a class="toc-link" href="ch16.html"><span class="toc-num">16</span><span>設計的永續轉譯</span></a></li><li class="toc-item is-current" data-page="ch17"><a class="toc-link" href="ch17.html" aria-current="page"><span class="toc-num">17</span><span>完整案例：一條可追溯的轉譯鏈</span></a><ol class="toc-sections"><li class="toc-sec"><a href="#s17-1">17.1　為什麼需要一條追溯鏈</a></li><li class="toc-sec"><a href="#s17-2">17.2　竹山：作者的完整管線</a></li><li class="toc-sec"><a href="#s17-3">17.3　崙背：從證據到商品的一頁追溯鏈</a></li><li class="toc-sec"><a href="#s17-4">17.4　反向審查：從成品追回證據</a></li><li class="toc-sec"><a href="#s17-5">17.5　把斷點變成田野任務</a></li><li class="toc-sec"><a href="#s17-6">17.6　同一把尺：十一個案例的驗證卡</a></li></ol></li><li class="toc-item" data-page="ch18"><a class="toc-link" href="ch18.html"><span class="toc-num">18</span><span>課程實施與成果評量</span></a></li></ol></li><li class="toc-part" data-part="part-5"><button class="toc-part-btn" type="button" aria-expanded="true"><span class="toc-part-label"></span><span>附錄</span><svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><ol><li class="toc-item" data-page="appendix-a"><a class="toc-link" href="appendix-a.html"><span class="toc-num">A</span><span>十四份工具範本</span></a></li><li class="toc-item" data-page="appendix-b"><a class="toc-link" href="appendix-b.html"><span class="toc-num">B</span><span>提示詞庫</span></a></li><li class="toc-item" data-page="appendix-c"><a class="toc-link" href="appendix-c.html"><span class="toc-num">C</span><span>各階段檢核表</span></a></li><li class="toc-item" data-page="appendix-d"><a class="toc-link" href="appendix-d.html"><span class="toc-num">D</span><span>名詞釋義</span></a></li><li class="toc-item" data-page="appendix-e"><a class="toc-link" href="appendix-e.html"><span class="toc-num">E</span><span>出版前查核清單</span></a></li><li class="toc-item" data-page="appendix-f"><a class="toc-link" href="appendix-f.html"><span class="toc-num">F</span><span>參考文獻與資料來源</span></a></li><li class="toc-item" data-page="appendix-g"><a class="toc-link" href="appendix-g.html"><span class="toc-num">G</span><span>AI概念模擬圖集</span></a></li></ol></li></ol></nav>
+    <div class="sb-foot">審閱編修稿 3.3 整合版（2026 年 10 月）</div>
+  </aside>
+  <div class="scrim" aria-hidden="true"></div>
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn" id="menuBtn" type="button" aria-label="開關目錄" aria-controls="sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
+      <div class="crumbs"><a class="home-crumb" href="index.html" aria-label="封面">地方 DNA 設計轉譯</a><span class="sep" aria-hidden="true">/</span><span class="part-crumb">第四篇 實踐篇</span><span class="sep sep2" aria-hidden="true">/</span><span class="here">第 17 章　完整案例：一條可追溯的轉譯鏈</span></div>
+      <div class="top-actions">
+        <button class="icon-btn" type="button" data-open-search aria-label="搜尋全書"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <button class="icon-btn" id="settingsBtn" type="button" aria-label="閱讀設定" aria-haspopup="true" aria-expanded="false" aria-controls="settingsPop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V5h11v2M9.5 5v14M7 19h5"/><path d="M14 12v-1.5h7V12M17.5 10.5V19M16 19h3"/></svg></button>
+      </div>
+      <div class="progress" aria-hidden="true"><span></span></div>
+      <div class="popover" id="settingsPop" role="dialog" aria-label="閱讀設定" hidden>
+        <div class="pop-row"><div class="pop-label">字級</div>
+          <div class="size-row"><button type="button" data-size="-1" aria-label="縮小字級">A−</button><output id="sizeOut">18 px</output><button type="button" data-size="1" aria-label="放大字級">A＋</button></div></div>
+        <div class="pop-row"><div class="pop-label">字體</div>
+          <div class="seg"><button type="button" data-set-font="serif" style="font-family:var(--font-serif)">明體</button><button type="button" data-set-font="sans" style="font-family:var(--font-sans)">黑體</button></div></div>
+        <div class="pop-row"><div class="pop-label">背景</div>
+          <div class="seg"><button type="button" data-set-theme="auto">自動</button><button type="button" data-set-theme="light"><span class="swatch" style="background:#f8f6f1"></span>白</button><button type="button" data-set-theme="sepia"><span class="swatch" style="background:#f3ead7"></span>米</button><button type="button" data-set-theme="dark"><span class="swatch" style="background:#1c1f23"></span>夜</button></div></div>
+      </div>
+    </header>
+    <main><article class="page" id="main" tabindex="-1"><header class="ch-hero part-4"><div class="ch-hero-inner"><div class="ch-kicker">第四篇 實踐篇 <span class="dot" aria-hidden="true"></span> 實踐篇</div><div class="ch-number">第 17 章</div><h1 class="ch-title">完整案例：一條可追溯的轉譯鏈</h1><p class="ch-subtitle">把前面十六章串成一條線：從田野證據一路追到商品，每一步都說得出來源</p></div></header><div class="content"><section class="ch-meta" aria-label="本章導覽"><div class="ch-meta-row"><div class="ch-meta-k">在流程中的位置</div><div class="ch-meta-v"><figure class="figure flow"><img src="images-2/image35.webp" width="2000" height="246" alt="本章在全書流程中的位置" loading="lazy"></figure></div></div><div class="ch-meta-row"><div class="ch-meta-k">學習目標</div><div class="ch-meta-v"><ol class="circled">
+<li>看懂竹山案例的五步完整管線，並對照到九項成果與本書章節</li>
+<li>用崙背示範的一頁追溯鏈，說明證據、DNA、語彙、色彩圖紋、商品與驗證如何相連</li>
+<li>建立自己專案的追溯總表，並為每一列註明證據、同意與AI協作紀錄</li>
+<li>用「反向審查」從成品追回證據，找出斷點</li>
+<li>把斷點與待確認事項轉成田野任務</li>
+</ol></div></div><div class="ch-meta-row"><div class="ch-meta-k">關鍵詞</div><div class="ch-meta-v"><div class="chips"><span class="chip">完整管線</span><span class="chip">追溯鏈</span><span class="chip">追溯總表</span><span class="chip">反向審查</span><span class="chip">斷點</span><span class="chip">田野任務</span><span class="chip">授權門檻</span></div></div></div><div class="ch-meta-row"><div class="ch-meta-k">本章成果</div><div class="ch-meta-v"><p>追溯總表（含證據、同意、AI協作紀錄與狀態）、反向審查紀錄、斷點與田野任務清單。</p></div></div></section><aside class="callout tone-gold"><div class="callout-label"><span aria-hidden="true">◆</span>重點觀念</div><p class="callout-title"><strong>一句話記住這一章</strong></p><p><strong>成品上的每一個元素，都要能一路追回田野。</strong> 追得回去的，才能放心對外說；追不回去的，是斷點，也是下一步的田野任務。</p></aside>
+<h2 id="s17-1"><span class="sec-num">17.1</span><span>為什麼需要一條追溯鏈</span><a class="anchor-link" href="#s17-1" aria-label="本節連結">#</a></h2>
+<p>前面幾章分別介紹了證據、DNA、語彙、色彩、圖紋、商品、遊程、驗證，以及AI協作與品質倫理。每一章都在回答一個局部的問題；真正讓成果站得住腳的，是這些局部之間的<strong>連線</strong>：商品上的這個圖紋，來自哪個語彙？那個語彙，是居民說的，還是我們想像的？它背後的DNA，有幾種獨立來源？</p>
+<p>作者在簡報的結尾提醒：理論只有落地才能生根，從竹林到伴手禮的每一步，都擁有一條清晰且不容妥協的證據鏈。本章用兩個案例，示範這條鏈長什麼樣子，並提供一套可以直接使用的工具。</p>
+<aside class="callout tone-purple"><div class="callout-label"><span aria-hidden="true">Aa</span>名詞</div><p class="callout-title"><strong>追溯鏈與追溯總表</strong></p><p>追溯鏈是指成品的每個元素，都能一路連回設計規格、語彙、DNA與原始證據。追溯總表是把這條鏈寫成一張表：一列一個成品元素，記下它回溯到哪裡、有什麼證據與同意、用過哪些AI協作，以及目前的狀態。</p></aside>
+<h3 id="h1">兩個完整案例，各自從哪裡開始</h3>
+<p>本書的兩個完整案例，起點不同，走的卻是同一條鏈。竹山從遊程試走開始：一句「很想帶回家繼續畫」變成商品任務，商品改版又回頭補強遊程（10.10、11.10與本章17.2）。崙背從公開資料與上游證據開始：12筆證據、8項候選DNA與一組文化語意，一路走到小夜燈；遊程只是後續的研究提案（10.3至10.9、11.10與本章17.3）。<a class="xref" href="#fig-17-1">圖17.1</a>把各階段所在的節次放在同一張地圖上，方便依需要跳讀。</p>
+<figure class="figure wide" id="fig-17-1"><img src="images-1/image126.webp" width="2000" height="900" alt="兩個完整案例的閱讀地圖：各階段在哪一節" loading="lazy" decoding="async"><figcaption><b>圖17.1</b>　兩個完整案例的閱讀地圖：各階段在哪一節</figcaption></figure>
+<aside class="callout tone-purple fig-read"><div class="callout-label">這張圖怎麼讀</div><p>橫向是八個階段，從證據一路到追溯鏈；縱向是兩個案例。每一格寫的是該階段在本書的節次。</p>
+<p>竹山的證據格指向17.2的管線第一步，因為竹山示範的出發點不是公開資料的整理，而是遊程試走與作者的實務資料。</p>
+<p>底部橫條提示閱讀順序：先讀商品與遊程的完整示範，再回頭讀上游各章。</p></aside>
+<p>兩個案例的性質也不同，閱讀時要分清楚。崙背的位置、活動與統計，依公開報導與官方公告整理，並列出來源；竹山示範的店家合作、報價、規格與測試，則是為了說明方法而設定的內容。凡是標示<strong><span class="tag tag-demo">示範假設</span></strong>的分數、價格、同意與測試結果，都不是實際取得的資料；正式作業要以本組的田野與測試取代。</p>
+<h2 id="s17-2"><span class="sec-num">17.2</span><span>竹山：作者的完整管線</span><a class="anchor-link" href="#s17-2" aria-label="本節連結">#</a></h2>
+<p><a class="xref" href="#fig-17-2">圖17.2</a>是作者簡報中的「實戰全景圖」，把竹山案例從DNA到最終產出分成五步。對照本書，五步剛好涵蓋九項成果：第一步對應成果1，第二步對應成果2、3，第三步對應成果4、5、6，第四步是成果7，第五步則是成果8與9。</p>
+<figure class="figure wide" id="fig-17-2"><img src="images-1/image127.webp" width="2000" height="1012" alt="竹山案例的完整管線：從DNA萃取到最終產出" loading="lazy" decoding="async"><figcaption><b>圖17.2</b>　竹山案例的完整管線：從DNA萃取到最終產出</figcaption></figure>
+<aside class="callout tone-purple fig-read"><div class="callout-label">這張圖怎麼讀</div><p>從左到右是五個步驟，每一步下方是竹山的內容，最下方是對應的成果與章節。</p>
+<p>第一步的DNA取自竹產業、茶園、老街與921重建史；第二步提煉出「竹節、編織、慢旅」，並紀錄竹片敲擊聲。</p>
+<p>第三步把語意轉成「節點化線條」與「編織模組」，並萃取主色「竹山晨霧綠」。</p>
+<p>第四步發展5×5連綴式的「竹編連續圖紋」，以精準座標檢核；第五步產出竹藝茶葉伴手禮包裝與X720老街慢旅導覽。</p></aside>
+<p>竹山的兩個最終產出，不是各做各的。第<a class="xref" href="ch10.html">10</a>章與第<a class="xref" href="ch11.html">11</a>章已經示範：遊程試走留下的證據，成為商品概念的起點；商品的改版，又回頭補強遊程的藍圖（<a class="xref" href="#tbl-17-1">表17.1</a>）。這就是追溯鏈的另一個面向：成果與成果之間，也可以互相追溯。</p>
+<div class="table-wrap" id="tbl-17-1" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.1</strong>　竹山：遊程與商品互相餵養的四個轉折</div><table data-cols="3"><thead><tr><th><strong>轉折</strong></th><th><strong>證據與結果（示範數字）</strong></th><th><strong>流向</strong></th></tr></thead><tbody><tr><td class="tint"><strong>試走</strong></td><td>兩位旅客在元泰竹藝社沒有把竹杯畫完，說「很想帶回家繼續畫」<strong><span class="tag tag-demo">示範假設</span></strong></td><td>成果9→成果8：產生「竹杯彩繪包」商品概念</td></tr><tr><td class="tint"><strong>概念評分</strong></td><td>竹杯彩繪包45分，高於竹柄開信刀37分、冬筍禮盒33分</td><td>成果8：選為深化方案</td></tr><tr><td class="tint"><strong>定價與測試</strong></td><td>v1建議售價908元，超出800元上限；v2定價790元；加權總分由38.3提高到42.8，購買意願由3.4提高到4.1</td><td>回到規格與改版（第<a class="xref" href="ch10.html">10</a>、<a class="xref" href="ch12.html">12</a>章）</td></tr><tr><td class="tint"><strong>遊程改版</strong></td><td>元泰竹藝社停留計畫50分、實測75分；調整後路線評分由24提高到28（滿分35）</td><td>成果9：改版；彩繪包成為「進度落後」的對策</td></tr></tbody></table></div>
+<p class="note">數字為第<a class="xref" href="ch10.html">10</a>至<a class="xref" href="ch12.html">12</a>章的教學示範假設值，旅客原話亦為示範而設定，不是實際訪談；正式作業須以本組的試走、報價與測試資料取代。</p>
+<p>崙背的追溯總表在<a class="xref" href="#s17-3">17.3</a>節。竹山示範也能做出同樣的一張表（<a class="xref" href="#tbl-17-2">表17.2</a>）：一列一個成品元素，並留下目前能追到哪裡、哪裡仍是缺口。表中凡是需要供貨、同意或授權的項目，在取得當事人的回覆之前，都只能標為<strong><span class="tag tag-tbc">待確認</span></strong>。</p>
+<div class="table-wrap wide" id="tbl-17-2" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.2</strong>　追溯總表（竹山示範：竹杯彩繪包的成品元素，摘錄）</div><table class="plain" data-cols="5"><thead><tr><th><strong>成品元素</strong></th><th><strong>回溯到</strong></th><th><strong>證據與同意</strong></th><th><strong>AI協作</strong></th><th><strong>狀態</strong></th></tr></thead><tbody><tr><td class="tint"><strong>商品任務：承接未完成的手作</strong></td><td>成果9試走一；D1竹產業與竹工藝</td><td>元泰竹藝社計畫50分、實測75分；旅客原話為示範設定</td><td>Q8-6</td><td>示範假設</td></tr><tr><td class="tint"><strong>材料與工藝：竹杯、手作指導</strong></td><td>元泰竹藝社（POI）；五種角色矩陣</td><td>供貨、報價與合作意願未取得；不能由「市街」推論供應能力</td><td>Q8-5</td><td>缺口：待確認</td></tr><tr><td class="tint"><strong>圖紋：節點化線條、編織模組</strong></td><td>成果7；語彙「竹節、編織」（成果3）</td><td>無縫檢核須留檔；採樣來源與使用範圍待確認</td><td>——</td><td>示範假設，採樣待確認</td></tr><tr><td class="tint"><strong>色彩：竹山晨霧綠</strong></td><td>成果6；竹林與晨霧的採樣</td><td>色碼須現地採樣、印製前校色</td><td>——</td><td>待確認</td></tr><tr><td class="tint"><strong>故事卡：竹加工回到日常</strong></td><td>成果3；POI元泰竹藝社</td><td>每句附來源編號〔竹2〕〔竹3〕；人物與肖像須取得同意</td><td>P6-2</td><td>已查證，同意待確認</td></tr><tr><td class="tint"><strong>定價v2：790元</strong></td><td>BOM與報價（v1：408.50元→v2：356.00元）</td><td>同一公式計算；報價須註明來源與日期；通路分潤30%為假設</td><td>P7-1</td><td>示範假設</td></tr><tr><td class="tint"><strong>帶回家完成的包裝</strong></td><td>服務藍圖對「進度落後」的對策</td><td>乾燥、攜帶與包裝固定須以實物測試</td><td>Q8-6</td><td>待確認</td></tr><tr><td class="tint"><strong>測試：加權38.3→42.8</strong></td><td>成果8概念與原型測試</td><td>小樣本；購買意願3.4→4.1不能推論暢銷</td><td>Q8-4</td><td>示範假設</td></tr></tbody></table></div>
+<p class="note">依第<a class="xref" href="ch10.html">10</a>章竹山示範與<a class="xref" href="#s17-2">17.2</a>節整理；AI協作欄為提示詞代碼（全文見<a class="xref" href="appendix-b.html">附錄B</a>），實際作業須同時記入範本11；所有數字、評分與同意狀態皆非實際取得。</p>
+<p>竹山還有一個要分清楚的地方：作者簡報中的實務圖像（例如竹山的地方農產包裝、「來發打鐵」的客製雕刻刀組與五感包巾），是真實完成的設計工作，可以由作者補述真實的委託、過程與結果；第<a class="xref" href="ch10.html">10</a>章的竹杯彩繪包則是為了完整示範流程而做的教學模擬。兩者不能混用：不能把模擬測試的數字，接到實務作品上去宣稱成效。引用時一律標明案例性質。</p>
+<h2 id="s17-3"><span class="sec-num">17.3</span><span>崙背：從證據到商品的一頁追溯鏈</span><a class="anchor-link" href="#s17-3" aria-label="本節連結">#</a></h2>
+<p>崙背示範從公開報導出發，走完證據、DNA、語彙與五感、色彩圖紋、商品與驗證。<a class="xref" href="#fig-17-3">圖17.3</a>把整條鏈放在一頁：每一欄是一個階段，欄下方的紅色虛線框，是這一段目前的斷點。這張圖有一個重要的用途：它讓人一眼看出，哪裡的證據最紮實，哪裡仍然只是示範。</p>
+<figure class="figure wide" id="fig-17-3"><img src="images-1/image128.webp" width="2000" height="1130" alt="崙背示範的一頁追溯鏈：六個階段與斷點" loading="lazy" decoding="async"><figcaption><b>圖17.3</b>　崙背示範的一頁追溯鏈：六個階段與斷點</figcaption></figure>
+<p>這條鏈有三個值得注意的地方：</p>
+<ul>
+<li><strong>證據這一欄標「已查證」，其餘多半標「示範假設」。</strong> 地方的位置、活動與統計依公開報導整理並列出來源；但商品概念、評分、價格與測試，是為了說明方法而設定的內容。</li>
+<li><strong>每一欄都有自己的斷點。</strong> 從來源衝突、客語用字、採樣同意，到商品的竹柄、LED模組與電池沒有來源，斷點不是失敗，而是下一步的田野任務。</li>
+<li><strong>最底下的紅色橫條，是整件商品能否上市的門檻。</strong> 崇賢寺對名稱與火把意象的書面同意沒有取得，概念A就不上市（第<a class="xref" href="ch15.html">15</a>章）。</li>
+</ul>
+<p>鏈的一頁圖適合報告，但實際作業需要更細的一張表。<a class="xref" href="#tbl-17-3">表17.3</a>是追溯總表的格式，並以崙背的概念A為例：一列一個成品元素，記下回溯、證據與同意、AI協作與狀態。</p>
+<div class="table-wrap wide" id="tbl-17-3" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.3</strong>　追溯總表（崙背示範：概念A的成品元素，摘錄）</div><table class="plain" data-cols="5"><thead><tr><th><strong>成品元素</strong></th><th><strong>回溯到</strong></th><th><strong>證據與同意</strong></th><th><strong>AI協作</strong></th><th><strong>狀態</strong></th></tr></thead><tbody><tr><td class="tint"><strong>品名「澹火夜行」（暫名）</strong></td><td>成果3語彙「澹仔火」；D2；LB-01</td><td>〔崙3〕〔崙5〕〔崙7〕；用字待居民檢核；名稱授權待崇賢寺同意</td><td>P6-2</td><td>待確認</td></tr><tr><td class="tint"><strong>故事卡（約60字）</strong></td><td>成果3「顧更」「遊庄」；E01–E04</td><td>每句附來源編號；不寫起源年份</td><td>P6-2、W7</td><td>已查證，用字待確認</td></tr><tr><td class="tint"><strong>色彩：澹火橘等5色</strong></td><td>成果6；火光、夜色、竹篾、瓜網、鮮乳</td><td>對比值已計算；色碼待現地採樣替換</td><td>Q6</td><td>示範假設</td></tr><tr><td class="tint"><strong>圖紋：瓜網斜格＋火點</strong></td><td>成果7；路徑1火點（LB-01、LB-12）、路徑2瓜網（LB-05）</td><td>抽象化過程已記錄；溫室與農地採樣同意待確認；3×3預覽</td><td>Q7、P6-3</td><td>示範假設，採樣待確認</td></tr><tr><td class="tint"><strong>竹編燈罩</strong></td><td>LB-03竹編藝師；D2</td><td>產能、單價、姓名與作品使用同意待確認；只有一位職人</td><td>——</td><td>缺口：無備援</td></tr><tr><td class="tint"><strong>竹柄、LED模組、電池</strong></td><td>無入選POI</td><td>沒有來源；電氣安全與標示待確認</td><td>——</td><td>缺口：無來源</td></tr><tr><td class="tint"><strong>定價v2：860元</strong></td><td>成本試算（BOM與報價）</td><td>同一公式計算；報價須註明來源與日期</td><td>P7-1</td><td>示範假設</td></tr></tbody></table></div>
+<p class="note">依崙背示範說明書的追溯鏈、CMF與待確認事項整理；AI協作欄為對應的提示詞代碼（全文見<a class="xref" href="appendix-b.html">附錄B</a>），實際作業須同時記入範本11；所有數字、評分與同意狀態皆非實際取得。</p>
+<p>做自己的追溯總表時，有三個小技巧：一，成品元素寫得越細越好，「包裝」太粗，「包裝上的火點圖紋」才能追；二，「證據與同意」欄一定要有編號或文件名，不能只寫「已確認」；三，狀態只用三種標示：<strong><span class="tag tag-ok">已查證</span><span class="tag tag-demo">示範假設</span></strong>或正式作業中的「已確認」，以及<strong><span class="tag tag-tbc">待確認</span></strong>，不要自創第四種。</p>
+<p>崙背小夜燈能否放行，在第<a class="xref" href="ch10.html">10</a>章用「文化、技術、營運」三道閘門整理（<a class="xref" href="ch10.html#fig-10-13">圖10.13</a>）；放行之後的下一步，是<a class="xref" href="ch11.html#s11-10">11.10</a>節說明的體驗模組提案，同樣標明為研究提案，未實施。</p>
+<h2 id="s17-4"><span class="sec-num">17.4</span><span>反向審查：從成品追回證據</span><a class="anchor-link" href="#s17-4" aria-label="本節連結">#</a></h2>
+<p>追溯鏈是由上游往下游做的；但檢查的時候，要反過來：從成品上抽一個元素，往回問五個問題（<a class="xref" href="#fig-17-4">圖17.4</a>）。任何一格答不出來，就是斷點。</p>
+<figure class="figure wide" id="fig-17-4"><img src="images-1/image129.webp" width="2000" height="1320" alt="反向審查：從成品元素往回追到田野證據" loading="lazy" decoding="async"><figcaption><b>圖17.4</b>　反向審查：從成品元素往回追到田野證據</figcaption></figure>
+<p>反向審查最好在第三道關卡（設計定稿前，見第<a class="xref" href="ch15.html">15</a>章）進行，由小組以外的人擔任審查者，例如另一組同學、指導老師或居民。審查者隨機抽三到五個成品元素，請小組逐一回答；答不出來的，記在斷點清單，補齊前不對外宣稱。可以請AI協助檢查追溯總表，但它只能指出斷點，不能補寫來源，也不能判定是否已取得授權：</p>
+<div class="prompt-card"><div class="pc-head"><span class="pc-code">W11</span><span class="pc-title">追溯總表斷點檢查</span><button class="copy-btn" type="button" aria-label="複製提示詞">複製</button></div><div class="pc-body"><p>以下是我們的追溯總表：【貼上：成品元素｜回溯到的成果、DNA與POI｜證據與同意｜AI協作紀錄｜狀態】。請逐列檢查：①這個元素是否連回至少一個入選POI與一項DNA；②證據欄是否附有來源編號或文件名；③需要同意或授權的項目，是否有同意紀錄（只依我提供的資料判斷，沒有紀錄者標「待確認」）；④AI協作欄是否有提示詞代碼。每列輸出「連得上／部分連得上／斷點」，並寫出缺少的資料與建議的田野問題。不要補寫來源，不要替我判定是否已取得授權。</p></div></div>
+<p class="note">W11為本書補充的提示詞，原則與P0相同：只依提供的資料、未知標待確認、判斷留給人。</p>
+<h2 id="s17-5"><span class="sec-num">17.5</span><span>把斷點變成田野任務</span><a class="anchor-link" href="#s17-5" aria-label="本節連結">#</a></h2>
+<p>斷點找出來之後，下一步是把它變成可以執行的任務：要問誰、問什麼、屬於哪一類POI。<a class="xref" href="#tbl-17-4">表17.4</a>是崙背示範列出的五個資源缺口，它們只列問題與類型，<strong>不替業者填答案</strong>；答案必須由當事人回覆。</p>
+<div class="table-wrap wide" id="tbl-17-4" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.4</strong>　崙背示範：資源缺口與田野任務</div><table data-cols="4"><thead><tr><th><strong>缺口</strong></th><th><strong>要補什麼</strong></th><th><strong>田野可以問的問題</strong></th><th><strong>POI類型</strong></th></tr></thead><tbody><tr><td class="tint"><strong>材料：竹材來源</strong></td><td>竹材由誰供應、什麼竹種、產地、可否追溯</td><td>「燈罩與竹柄用的竹子從哪裡來？一次拿得到多少？」</td><td>B產業與市集</td></tr><tr><td class="tint"><strong>工藝：第二位職人</strong></td><td>能承接竹編小件的職人或工坊，作為備援</td><td>「除了您，還有誰做竹編？可以接小量訂製嗎？」</td><td>C工藝與技藝</td></tr><tr><td class="tint"><strong>材料：LED模組與電池</strong></td><td>電子零件的供應、檢驗與標示</td><td>「這類零件誰能供貨？需要哪些檢驗與標示？」</td><td>H服務與物流</td></tr><tr><td class="tint"><strong>視覺：採樣來源</strong></td><td>把瓜網紋與農地方格升為正式採樣POI，或另找來源</td><td>「可以到溫室、農地拍攝嗎？有什麼限制？」</td><td>B、F</td></tr><tr><td class="tint"><strong>包材與印刷</strong></td><td>盒型、單色印刷、刀模與交期</td><td>「最小印量與交期是多少？」</td><td>H服務與物流</td></tr></tbody></table></div>
+<p class="note">取自崙背示範說明書「覆蓋檢查與資源缺口」；POI類型代碼依該說明書的POI分類。</p>
+<p>排任務的優先順序，建議用兩個原則：<strong>授權類先於供應類</strong>，因為授權拿不到，後面的供應與打樣都白做（崇賢寺的書面同意就是這種情況）；<strong>會改變設計方向的先於只影響細節的</strong>，例如竹材來源會影響材質選擇，而包材交期只影響打樣時程。</p>
+<p>完成田野任務之後，不要只更新一個欄位。回頭檢查：這筆新證據，會不會改變DNA的層級？會不會讓某個語彙需要重新檢核？會不會改寫成品元素的規格？這就是第<a class="xref" href="ch12.html">12</a>章的「回流規則」在追溯鏈上的樣子：證據一動，下游跟著動。</p>
+<h2 id="s17-6"><span class="sec-num">17.6</span><span>同一把尺：十一個案例的驗證卡</span><a class="anchor-link" href="#s17-6" aria-label="本節連結">#</a></h2>
+<p>前五節走完了竹山與崙背兩個完整案例。本節把3.3版新增的九個案例，用同一把尺再量一次（<a class="xref" href="ch03.html#s3-6">3.6</a>節的六道驗證）。每個案例先放一張地方DNA的四道檢驗表，再放一張驗證卡；最後把九張卡收成一張矩陣，並把竹山與崙背放進同一張圖當參照列（<a class="xref" href="#fig-17-5">圖17.5</a>）。</p>
+<h3 id="h2">怎麼讀這些卡</h3>
+<ul>
+<li><strong>評等是桌面審查。</strong> ●具備、△部分、○缺口，只說明「現有文件能不能支撐這一道」。作者沒有到這九個地方做田野，所以不是成效評鑑，也不是對實踐者的批評。其中斗南與古坑是作者自己的文件與設計稿，你若提供田野紀錄，評等可以升級。</li>
+<li><strong>竹山與崙背是參照列。</strong> 它們是本書自己走完的流程，V1至V4依第<a class="xref" href="#">17</a>章的追溯鏈自評為具備，V5與V6仍是示範假設，沒有現場驗證，所以都列△。請不要把它們的●和外部案例的●放在同一個意義上比較；它們只是讓你看到，做完整條鏈的人自己打分，也應該被別人拿同一把尺量一次。</li>
+<li><strong>先看矩陣，再看卡。</strong> 先在矩陣上找缺口最多的欄，再回到那個案例的驗證卡，找「缺口」欄裡寫的下一步；下一步都能轉成田野任務（<a class="xref" href="#s17-5">17.5</a>節）。</li>
+</ul>
+<figure class="figure wide" id="fig-17-5"><img src="images-1/image130.webp" width="2000" height="1452" alt="十一個案例的驗證矩陣（V1至V6）" loading="lazy" decoding="async"><figcaption><b>圖17.5</b>　十一個案例的驗證矩陣（V1至V6）</figcaption></figure>
+<aside class="callout tone-purple fig-read"><div class="callout-label">這張圖怎麼讀</div><p>每一列是一個案例，上面九列是新增的案例，最下面兩列是竹山與崙背（自評，虛線框）；每一欄是一道驗證，V5分成文化、社會、經濟與環境四格。圖形對應●具備（綠圓）、△部分（黃三角）與○缺口（紅圈）。</p>
+<p>最下方一列是九個案例各欄「具備」的數目；數字為0的欄用紅色標示，這就是最缺證據的地方。</p></aside>
+<p>把九個案例的九欄逐欄加總（<a class="xref" href="#tbl-17-5">表17.5</a>），可以看到幾個一致的圖像。<strong>最常見的是△部分</strong>：九個案例共81格，具備9格、部分62格、缺口10格。<strong>鏈條完整不等於證據完整</strong>：三個國外案例V3是●，V1與V2卻只有△。<strong>設計精確不等於有證據</strong>：古坑V4是●，V1、V2與V6都是○。<strong>單點扎實</strong>：北港與埔里的社會參與、鹿谷的環境永續，各有一格具備。<strong>治理與倫理最薄</strong>：V6沒有一個●，另有三個○。</p>
+<div class="table-wrap wide" id="tbl-17-5" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.5</strong>　九個案例各欄的評等分布</div><table class="plain" data-cols="5"><thead><tr><th><strong>驗證項目</strong></th><th><strong>●</strong></th><th><strong>△</strong></th><th><strong>○</strong></th><th><strong>九個案例的讀法</strong></th></tr></thead><tbody><tr><td class="tint"><strong>V1　證據可追溯</strong></td><td>0</td><td>8</td><td>1</td><td>沒有一個案例的主要事實有第三方或官方來源，並且把目標與成果分開；最常見的是單一來源，或只有作者自己的文件。</td></tr><tr><td class="tint"><strong>V2　DNA成立</strong></td><td>2</td><td>6</td><td>1</td><td>只有北港（朝天宮與迓媽祖）與鹿谷（凍頂烏龍茶）有兩條以上獨立路徑；古坑的DNA證據在設計稿中缺席。</td></tr><tr><td class="tint"><strong>V3　轉譯鏈完整</strong></td><td>3</td><td>6</td><td>0</td><td>三個國外案例的鏈條最完整，因為簡報本來就是照DNA→魅力→設計的順序寫的；國內案例多半在中段斷開。</td></tr><tr><td class="tint"><strong>V4　設計一致</strong></td><td>1</td><td>5</td><td>3</td><td>只有古坑有色碼與圖紋規格；斗南、土庫、埔里沒有共同語彙。</td></tr><tr><td class="tint"><strong>V5　文化適切</strong></td><td>0</td><td>9</td><td>0</td><td>九個案例全是部分：都談到文化價值，卻沒有知識持有者審訂的紀錄。</td></tr><tr><td class="tint"><strong>V5　社會參與</strong></td><td>2</td><td>6</td><td>1</td><td>北港（返鄉青年旅人市集）與埔里（桃米社區）有紀錄；古坑文件未見居民參與。</td></tr><tr><td class="tint"><strong>V5　經濟可行</strong></td><td>0</td><td>9</td><td>0</td><td>九個案例全是部分：有商品、市集或KPI，缺成本、收支與營運分工。</td></tr><tr><td class="tint"><strong>V5　環境永續</strong></td><td>1</td><td>7</td><td>1</td><td>只有鹿谷的窯火再生有量測資料；其他多是意圖，古坑的文件未談材料與回收。</td></tr><tr><td class="tint"><strong>V6　治理與倫理</strong></td><td>0</td><td>6</td><td>3</td><td>沒有一個案例具備；怡保、斗南、古坑三個○，涉及遺產站房、廊帶維運與紋樣授權。</td></tr></tbody></table></div>
+<p class="note">依本書桌面審查整理；共九個案例，每案九格。竹山與崙背為書內示範，不計入。</p>
+<h3 id="h3">案例一　鳥取縣（命名與品牌型）</h3>
+<p><strong>資料基礎</strong>　作者簡報＋縣政府公開資料。<strong>轉譯路徑</strong>　命名與品牌型（<a class="xref" href="ch03.html#s3-4">3.4</a>節）。<strong>核心本質句（教學示範）</strong>　鳥取是以千代川搬運的砂與海風堆成的砂丘為地景根基、並因水木茂出身於境港而把「看不見的存在」變成地方公共敘事的縣。</p>
+<div class="table-wrap wide" id="tbl-17-6" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.6</strong>　鳥取縣：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>鳥取砂丘</strong></p>
+<p>自然．核心</p></td><td><strong>✔✔✔✔</strong></td><td>縣政府資料、地質公園與百科、作者簡報</td><td>日本最大砂丘；砂由千代川搬運、經風力堆積；2009年條例禁止在砂丘上畫字或留下記號〔鳥5〕</td></tr><tr><td class="tint"><p><strong>水木茂與妖怪文化</strong></p>
+<p>文化．核心（主題軸）</p></td><td><strong>✔✔✔✔</strong></td><td>縣政府「漫畫王國」頁、境港資料、作者簡報</td><td>水木茂成長於境港；水木茂之路有百座以上妖怪銅像〔鳥5〕；使用作品要處理版權</td></tr><tr><td class="tint"><p><strong>松葉蟹、二十世紀梨、鳥取和牛</strong></p>
+<p>產業．次核心</p></td><td><strong>✔✔△✔</strong></td><td>縣政府特產資料、作者簡報</td><td>同類物產在其他縣也有，不可替代偏弱〔鳥4〕</td></tr><tr><td class="tint"><p><strong>因州和紙、弓濱絣與倉吉絣</strong></p>
+<p>文化．次核心</p></td><td><strong>✔✔△✔</strong></td><td>縣政府傳統工藝資料</td><td>因州和紙千年以上、絣織250年以上〔鳥4〕；工藝本身可轉譯，但需傳承人參與</td></tr><tr><td class="tint"><p><strong>星空（「星取縣」）</strong></p>
+<p>自然．次核心</p></td><td><strong>△✔△✔</strong></td><td>縣政府「星取県」宣傳資料</td><td>官方稱在環境省「全國星空繼續觀察」以可見度居全國第一〔鳥2〕；調查年份未載<strong><span class="tag tag-tbc">待確認</span></strong></td></tr><tr><td class="tint"><p><strong>慢生活與幸福度高</strong></p>
+<p>社會．延伸（待補強）</p></td><td><strong>？△？△</strong></td><td>只見於簡報敘述</td><td>沒有出處；只通過「可轉譯」，更像價值主張而不是DNA</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔鳥1〕至〔鳥5〕）。</p>
+<div class="table-wrap" id="tbl-17-7" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.7</strong>　鳥取縣：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　砂丘、星空與漫畫王國有縣政府資料〔鳥2〕〔鳥3〕〔鳥4〕與簡報〔鳥1〕互相支持。</p>
+<p><strong>缺口</strong>　簡報的「幸福度高」無出處；「美山式農村復興」中的美山在京都府，不在鳥取縣；星空第一的調查年份未載；水木茂之路累計人次須查報導原件。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　砂丘與水木茂妖怪文化通過四道檢驗，各有兩條以上獨立路徑。</p>
+<p><strong>缺口</strong>　簡報把「慢生活與幸福度高」也列為DNA，卻只通過「可轉譯」，列延伸；它撐起價值主張的一角，是需要補證據的一環。松葉蟹與梨和其他縣重疊，不能當唯一主軸。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　DNA → 四個魅力主題 → 五類落地，簡報逐欄對應，每個設計項目都指得回一個魅力主題。</p>
+<p><strong>缺口</strong>　「慢生活」主題指回的DNA本身證據不足（V2），所以「慢生活品牌」這一支要等上游補證據才站得穩。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　簡報提出識別系統的來源：砂丘紋理、妖怪插畫、梨子意象。</p>
+<p><strong>缺口</strong>　未見色碼、圖紋規格與使用規範；妖怪插畫須用原創造形，或取得授權。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>妖怪是真實的地方敘事，但作品權利在創作者與出版方。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>簡報列青年移居與創業支持，未寫居民如何參與規劃。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>有蟹、梨、和牛與IP觀光的產業基礎，缺成本與營運資料。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>低碳旅遊與木造建築是意圖；砂丘有條例管理〔鳥5〕，但簡報未附量測。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　砂丘條例是「保護性治理」的實例〔鳥5〕。</p>
+<p><strong>缺口</strong>　簡報未寫妖怪IP的授權架構，也未寫夜間光影對星空保護區的衝突如何處理。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備1、△部分8、○缺口0。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　先補「慢生活與幸福度高」的第二條證據，再談慢生活品牌；妖怪造形用原創設計或取得授權；確認星空第一的調查年份與美山的所在地。</p>
+<p><strong>這個案例教了什麼</strong>　「命名」要有成因：鳥取把「蟹取縣」「星取縣」「漫畫王國」做成品牌，是因為背後有可查的蟹產量、星空觀察與漫畫家出身地；缺的是把「慢生活」也補上證據。</p>
+<h3 id="h4">案例二　居鑾（鐵道與路徑型）</h3>
+<p><strong>資料基礎</strong>　作者簡報（兩份）＋公開資料。<strong>轉譯路徑</strong>　鐵道與路徑型（<a class="xref" href="ch03.html#s3-5">3.5</a>節）。<strong>核心本質句（教學示範）</strong>　居鑾是一座因1909年鐵道通車而成形的車站城市；車站同時是交通節點、咖啡店的所在，也是居民日常聚集的地方。</p>
+<div class="table-wrap wide" id="tbl-17-8" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.8</strong>　居鑾：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>居鑾車站與英殖民鐵道</strong></p>
+<p>歷史．核心</p></td><td><strong>✔✔✔✔</strong></td><td>百科條目、作者工作坊簡報、作者論壇簡報</td><td>1909年通車；舊站房被列為遺產建築〔居3〕</td></tr><tr><td class="tint"><p><strong>站內的鐵道咖啡（Kluang Rail Coffee）</strong></p>
+<p>產業．次核心</p></td><td><strong>✔✔✔✔</strong></td><td>百科條目、作者簡報（兩條路都是二手）</td><td>2022年獲馬來西亞紀錄大全「最老鐵道咖啡店」〔居3〕；紀錄原件待查</td></tr><tr><td class="tint"><p><strong>以車站為中心向外擴散的城市結構</strong></p>
+<p>社會．延伸（待田野）</p></td><td><strong>✔✔△✔</strong></td><td>只見於作者簡報</td><td>單一來源；其他鐵道城鎮也有類似形態</td></tr><tr><td class="tint"><p><strong>跨族群的鐵道社群</strong></p>
+<p>社會．延伸（待田野）</p></td><td><strong>△△？△</strong></td><td>只見於作者簡報</td><td>簡報兩處列的族群不同：DNA欄為日裔、馬來、華人，魅力欄為馬來、華人、印度，須田野確認〔居1〕</td></tr><tr><td class="tint"><p><strong>自然DNA</strong></p>
+<p>自然．缺口</p></td><td><strong>？？？？</strong></td><td>簡報未列</td><td>五類DNA中自然類是空白，須田野補</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔居1〕至〔居3〕）。</p>
+<div class="table-wrap" id="tbl-17-9" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.9</strong>　居鑾：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　車站年份與咖啡紀錄有百科條目〔居3〕，與兩份作者簡報〔居1〕〔居2〕互相對得上。</p>
+<p><strong>缺口</strong>　跨族群名單前後不一；Rail Coffee的紀錄靠百科轉述，須查馬來西亞紀錄大全原件；設計項目全為構想。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　車站與鐵道通過四道檢驗；咖啡有兩條路，但都是二手。</p>
+<p><strong>缺口</strong>　五類中自然類空白；「跨族群社群」沒有來源，是田野任務。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　五個魅力主題與設計項目逐項對得上：鐵道×生活→廊帶、咖啡×鐵道→聯名杯、跨族群→多語導覽、青年→鐵道節、慢旅→步道。</p>
+<p><strong>缺口</strong>　「跨族群」主題指回的DNA本身未通過檢驗（V2），是上游要補的一環。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　簡報提出「鐵道圖騰」轉商品與包裝的概念。</p>
+<p><strong>缺口</strong>　未見色票、圖騰規格與使用規範。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>跨族群敘事需要各社群共同審訂，簡報尚未寫出。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>作者論壇簡報建議「歷史採集、紀錄志工、共創工作坊」〔居2〕，屬建議層級。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>市集與聯名商品是方向，沒有成本與營運安排。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>步行與老建築再利用是意圖；論壇建議碳額度抵換〔居2〕，尚無數據。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　作者論壇簡報建議成立「Rail Heritage Governance Board」（政府、鐵路公司、學界、社區代表）〔居2〕。</p>
+<p><strong>缺口</strong>　屬建議；遺產站房的管理權責與Rail Coffee的營運關係，簡報未寫。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備1、△部分8、○缺口0。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　補「跨族群鐵道社群」與自然DNA的田野證據；查證馬來西亞紀錄大全的原件；把鐵道圖騰寫成色票與使用規範；寫出站房與咖啡店的管理權責。</p>
+<p><strong>這個案例教了什麼</strong>　鏈條完整不等於證據完整：居鑾的「轉譯鏈」是九個案例中最順的，但最上游的跨族群DNA與自然DNA還是空的。</p>
+<h3 id="h5">案例三　怡保（色彩與圖紋型（兼鐵道路徑））</h3>
+<p><strong>資料基礎</strong>　作者簡報＋公開資料。<strong>轉譯路徑</strong>　色彩與圖紋型（兼鐵道路徑）（<a class="xref" href="ch03.html#s3-5">3.5</a>節）。<strong>核心本質句（教學示範）</strong>　怡保是近打谷錫礦的移民財富與喀斯特石灰岩地景共同塑造的城市；火災後重建的老城格網與咖啡店，是這段歷史留在日常裡的樣子。</p>
+<div class="table-wrap wide" id="tbl-17-10" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.10</strong>　怡保：地方DNA的四道檢驗</div><table data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>錫礦史與近打谷</strong></p>
+<p>歷史．核心</p></td><td><strong>✔✔✔✔</strong></td><td>百科條目、作者簡報</td><td>1880年代因錫礦迅速成長；1920至30年代錫業高峰；1970至80年代錫價崩跌〔怡2〕</td></tr><tr><td class="tint"><p><strong>喀斯特石灰岩洞與洞穴寺廟</strong></p>
+<p>自然．核心</p></td><td><strong>✔✔✔✔</strong></td><td>百科條目、作者簡報</td><td>近打谷喀斯特；三寶洞、霹靂洞、極樂洞〔怡2〕；宗教場域，設計要先協商</td></tr><tr><td class="tint"><p><strong>老城格網與怡保車站</strong></p>
+<p>歷史．次核心</p></td><td><strong>✔✔✔✔</strong></td><td>百科兩條目、作者簡報</td><td>1892年大火後重建為格網〔怡2〕；現站房1917年啟用，莫臥兒復興風格，俗稱「怡保泰姬瑪哈陵」〔怡3〕</td></tr><tr><td class="tint"><p><strong>白咖啡</strong></p>
+<p>產業．次核心（成因待補）</p></td><td><strong>△✔△✔</strong></td><td>媒體文章、作者簡報</td><td>起源說法不一：有海南移民說，也有1937年新源隆說〔怡4〕；「發源地」須謹慎</td></tr><tr><td class="tint"><p><strong>芽菜雞與河粉</strong></p>
+<p>社會．延伸</p></td><td><strong>△✔△✔</strong></td><td>只見於作者簡報</td><td>單一來源，缺成因說明</td></tr><tr><td class="tint"><p><strong>錫器工藝</strong></p>
+<p>產業．延伸（待田野）</p></td><td><strong>？△？✔</strong></td><td>只見於作者簡報</td><td>未見傳承人與店家資料</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔怡1〕至〔怡4〕）。</p>
+<div class="table-wrap" id="tbl-17-11" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.11</strong>　怡保：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　錫礦與老城年份有百科條目〔怡2〕〔怡3〕，並與簡報〔怡1〕互相對得上。</p>
+<p><strong>缺口</strong>　白咖啡起源說法不一〔怡4〕；人口、洞穴開放資訊與錫器產業現況都未查。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　錫礦、喀斯特與老城通過四道檢驗；老城與車站有兩條以上獨立路徑。</p>
+<p><strong>缺口</strong>　白咖啡成因與不可替代都只有部分支持；錫器沒有傳承資料。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　三大路線各自回到一組DNA：錫礦×工藝、石灰岩×洞穴、白咖啡×老城；城市色彩三色名各回到一項DNA。</p>
+<p><strong>缺口</strong>　芽菜雞與河粉沒有進入設計項目；錫器的上游證據薄弱。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　簡報有三個色名（Limestone Beige、Heritage Cream、Coffee Brown）與圖騰系統概念。</p>
+<p><strong>缺口</strong>　只有色名，沒有色碼；未見使用規範。色名須經第<a class="xref" href="ch08.html">8</a>章採樣才算色彩系統。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>洞穴寺廟的光影工程涉及宗教場域，簡報未寫協商。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>「多元文化之城」需各族群共同審訂敘事，簡報未寫。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>慢旅Pass、市集與限定商品是方向，沒有成本與分工。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>咖啡渣循環與步行Old Town是意圖，尚無數據。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　簡報未見遺產站房的管理權責、洞穴寺廟的同意程序與色彩圖騰的使用授權。</p>
+<p><strong>缺口</strong>　先補一張權責表（誰管、誰同意、誰負責維護），再談光影與節慶。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備1、△部分7、○缺口1。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　把「Limestone Beige、Heritage Cream、Coffee Brown」三色名採樣成色碼；補白咖啡起源的第二條來源；先寫一張站房與洞穴寺廟的權責表，再談光影。</p>
+<p><strong>這個案例教了什麼</strong>　色名不是色票：怡保是九個案例中唯一把「城市色彩」寫進轉譯鏈的，但停在色名；從色名走到色碼，要靠第<a class="xref" href="ch08.html">8</a>章的採樣與命名。</p>
+<h3 id="h6">案例四　雲林斗南（鐵道與路徑型（兼循環材料型））</h3>
+<p><strong>資料基礎</strong>　作者簡報與估算文件＋公開資料。<strong>轉譯路徑</strong>　鐵道與路徑型（兼循環材料型）（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　斗南（他里霧）是以車站、糖鐵與台鐵倉庫為中心、主要節點都在步行可達距離內的小鎮；碾米、醬油、養鴨、竹筍與戲偶等職人，在這個中心周圍累積了數代的手藝。</p>
+<div class="table-wrap wide" id="tbl-17-12" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.12</strong>　雲林斗南：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>他里霧的車站與糖鐵、台鐵倉庫群</strong></p>
+<p>歷史．核心</p></td><td><strong>✔✔✔✔</strong></td><td>作者簡報、百科與台鐵資料、媒體報導（三條路）</td><td>1903年12月設站〔斗3〕；台鐵、台糖、台西客運共構；站旁曾有二十多間倉庫〔斗4〕；七號倉庫由舊糖鐵基地轉型〔斗1〕</td></tr><tr><td class="tint"><p><strong>步行可達的小鎮尺度（節點相距約400至950公尺）</strong></p>
+<p>社會．延伸（待田野量測）</p></td><td><strong>✔✔△✔</strong></td><td>作者估算文件（單一來源）</td><td>距離與廊帶長度1.2至1.5公里是作者估算〔斗2〕，須實地量測</td></tr><tr><td class="tint"><p><strong>農食職人群：碾米、醬油、養鴨、綠竹筍</strong></p>
+<p>產業．次核心</p></td><td><strong>✔✔△✔</strong></td><td>五個品牌各自的敘述（品牌自述）</td><td>玉山碾米六十年、新芳園醬油1945年創立、鴨迷四代、阿丹合作社2014年成立〔斗1〕；認證與年份為品牌自述</td></tr><tr><td class="tint"><p><strong>戲偶雕刻（偶的家）</strong></p>
+<p>文化．延伸</p></td><td><strong>✔✔△✔</strong></td><td>品牌敘述（徐炎卿家族傳承）</td><td>布袋戲在雲林並非斗南獨有，獨特處在雕刻工藝的家族傳承</td></tr><tr><td class="tint"><p><strong>絲瓜絡與昔日「菜瓜寮」</strong></p>
+<p>產業．延伸（待田野）</p></td><td><strong>✔△△✔</strong></td><td>單一品牌敘述</td><td>菜瓜寮產業的規模與消長須查地方志<strong><span class="tag tag-tbc">待確認</span></strong></td></tr><tr><td class="tint"><p><strong>智慧販賣機茶屋（讀讀小茶屋）</strong></p>
+<p>產業（新創）．不列DNA</p></td><td><strong>？△？✔</strong></td><td>品牌敘述</td><td>簡報未說明茶與斗南歷史的關係；屬新事業，價值在青創與茶渣循環（16.4）</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔斗1〕至〔斗4〕）。</p>
+<div class="table-wrap" id="tbl-17-13" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.13</strong>　雲林斗南：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　車站設站年份有百科條目〔斗3〕，倉庫現況有2014年報導〔斗4〕，與作者簡報〔斗1〕對得上。</p>
+<p><strong>缺口</strong>　兩份作者文件算同一條路；ISO22000、HACCP、SGS等為品牌自述，未附證書；減碳估算的係數出處未列。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　車站與倉庫群有三條路徑；農食職人群有五個獨立的品牌敘述。</p>
+<p><strong>缺口</strong>　步行尺度只有作者的距離估算，層級降為延伸；讀讀小茶屋不是DNA，是新事業。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　糖鐵→倉庫→園區→品牌的廊帶鏈清楚；簡報副標「從鐵軌出發，走進生活的廊帶」可當價值主張。</p>
+<p><strong>缺口</strong>　簡報沒有寫出魅力主題；品牌群與廊帶如何互相導流，未見說明。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　文件未見廊帶共用的色彩、圖紋或導引識別；各品牌各有識別。</p>
+<p><strong>缺口</strong>　先取「糖鐵鏽紅、倉庫灰、稻米白、醬油琥珀」這類來自DNA的色票，再談廊帶導引（第<a class="xref" href="ch08.html">8</a>、<a class="xref" href="ch09.html">9</a>章）。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>糖鐵與倉庫保存是文化價值，但居民如何參與詮釋，文件未寫。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>七號倉庫的青創平台與技職學生是參與入口，名單與機制未附。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>品牌認證與冷鏈是經濟基礎；廊帶本身的營運收支未見。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>估算有框架（情境與係數），但係數出處與量測方法未附，列為示範假設。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　文件未見廊帶的維運分工：台鐵、台糖舊資產、公所、品牌之間誰負責什麼。</p>
+<p><strong>缺口</strong>　補一張權責與分潤表（<a class="xref" href="ch09.html#s9-7">9.7</a>、<a class="xref" href="ch18.html#s18-9">18.9</a>節）。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備0、△部分7、○缺口2。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　先把「糖鐵鏽紅、倉庫灰、稻米白、醬油琥珀」從實物採樣成共同色票；補廊帶的維運分工與分潤表；減碳估算的係數須附出處，現列為示範假設。</p>
+<p><strong>這個案例教了什麼</strong>　廊帶有路徑、有品牌，缺的是共同的「識別」與「治理」；減碳估算是好的起點，但要把假設寫成假設。</p>
+<h3 id="h7">案例五　雲林古坑麻園（色彩與圖紋型）</h3>
+<p><strong>資料基礎</strong>　作者設計說明卡與設計稿＋公開資料（沒有田野紀錄）。<strong>轉譯路徑</strong>　色彩與圖紋型（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　古坑以日治時期荷包山一帶的咖啡栽培聞名〔古3〕；麻園的核心本質句要待田野證據之後才能寫，現有設計說明卡只能寫到「稻、地瓜、菸樓、麻竹與山嵐構成的山田地景」。</p>
+<div class="table-wrap wide" id="tbl-17-14" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.14</strong>　雲林古坑麻園：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>日治時期的咖啡栽培與921後的轉型</strong></p>
+<p>歷史．次核心（鄉的尺度，待第三條路）</p></td><td><strong>✔✔✔✔</strong></td><td>農業部網頁、維基百科</td><td>約1934年起日人在大尖山、荷苞山試種，後來荒廢；921後華山居民以咖啡為產業重心〔古3〕；設計稿沒有使用</td></tr><tr><td class="tint"><p><strong>菸樓與田疇</strong></p>
+<p>歷史．延伸（待田野）</p></td><td><strong>？✔△✔</strong></td><td>設計說明卡的色名與紋樣</td><td>菸樓與古坑菸葉栽培的關係，文件未載</td></tr><tr><td class="tint"><p><strong>稻作與地瓜</strong></p>
+<p>產業．延伸</p></td><td><strong>？✔△✔</strong></td><td>設計說明卡</td><td>稻與地瓜台灣各地都有，須找到麻園特有的品種、季節或做法</td></tr><tr><td class="tint"><p><strong>麻竹與「麻園」地名</strong></p>
+<p>自然．延伸</p></td><td><strong>？△？✔</strong></td><td>設計說明卡的色名與品牌名</td><td>地名與麻或麻竹的關係須查地方志<strong><span class="tag tag-tbc">待確認</span></strong></td></tr><tr><td class="tint"><p><strong>山嵐雲霧與水流</strong></p>
+<p>自然．延伸（通用元素風險）</p></td><td><strong>？✔？✔</strong></td><td>設計說明卡</td><td>多數山村都有；須轉成麻園特有的地點、視線或時刻</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔古1〕至〔古3〕）。</p>
+<div class="table-wrap" id="tbl-17-15" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.15</strong>　雲林古坑麻園：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　設計說明卡沒有附田野或文獻來源；公開資料只能確認古坑的咖啡史〔古3〕〔古2〕。</p>
+<p><strong>缺口</strong>　補一份麻園的證據矩陣：每個母題各兩條獨立來源。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　麻園各母題的「成因」欄都沒有資料；唯一通過四道檢驗的是咖啡（鄉的尺度，兩條路徑〔古2〕〔古3〕），但設計稿沒有使用。</p>
+<p><strong>缺口</strong>　稻、地瓜、山嵐與水流屬通用元素，通不過「不可替代」。若麻園的核心不是咖啡，須在核心本質句寫明範圍（鄉或麻園）。本案只收到設計說明卡與設計稿，補田野紀錄後可改評。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　五感→六組母題→五套紋樣→九色→包裝紙與手提袋，這段下游鏈條完整可追溯。</p>
+<p><strong>缺口</strong>　上游缺：DNA證據→五感；魅力主題與價值主張未見。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　九色有名稱與HEX；五套紋樣有排列方式（散點、連綴、重疊）、單位1200×1200、基準格100、半格位移比對誤差不超過4/255；應用有尺寸。</p>
+<p><strong>缺口</strong>　使用規範（誰可用、怎麼用）不屬視覺系統，歸在V6。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>母題取自地景，但未見居民或知識持有者審訂的紀錄。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>○缺口</strong></td><td>文件未見居民參與設計的紀錄。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>包裝紙與手提袋是商品載體，沒有成本與通路。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>○缺口</strong></td><td>文件未談紙材、印刷與回收。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　文件未見紋樣的使用範圍、授權與署名。</p>
+<p><strong>缺口</strong>　依<a class="xref" href="ch09.html#s9-7">9.7</a>節補一份識別使用規範，尤其是「九色只有第五套用滿」這類規則要寫成條文。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備1、△部分3、○缺口5。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　先補麻園的田野證據矩陣（每個母題各兩條獨立來源），再改寫核心本質句；依<a class="xref" href="ch09.html#s9-7">9.7</a>節補識別使用規範與署名；其餘三軸待居民參與、紙材與回收資料。</p>
+<p><strong>這個案例教了什麼</strong>　古坑是「設計層最完整、證據層最空」的案例：它示範了第<a class="xref" href="ch08.html">8</a>、<a class="xref" href="ch09.html">9</a>章可以做到多精確，也提醒好看的系統若缺DNA證據，就可能只是漂亮的元素擷取。</p>
+<h3 id="h8">案例六　雲林土庫（沉浸體驗型（兼命名與品牌型））</h3>
+<p><strong>資料基礎</strong>　縣府與鎮公所提案書＋作者簡報＋公開資料。<strong>轉譯路徑</strong>　沉浸體驗型（兼命名與品牌型）（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　土庫是北港進香路上的中繼城鎮：香客在此歇腳吃買，順天宮與六房媽的輪祀把聚落連成一圈，糖鐵與油醬產業則是這個商旅小鎮留下的生計。</p>
+<div class="table-wrap wide" id="tbl-17-16" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.16</strong>　雲林土庫：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>順天宮與六房媽聚落文化圈（土庫股）</strong></p>
+<p>文化．核心</p></td><td><strong>✔✔✔✔</strong></td><td>提案書、作者簡報、媒體報導</td><td>提案載「六房媽聚落文化圈—土庫股」；順天宮現今規模始建於1834年〔土3〕</td></tr><tr><td class="tint"><p><strong>北港進香路上的中繼城鎮</strong></p>
+<p>歷史．核心</p></td><td><strong>✔✔✔✔</strong></td><td>提案書、媒體報導</td><td>俗諺「北港顯，土庫定」與「來去土庫吃買」；提案稱早期鹿港至北港的交通要塞〔土1〕〔土3〕</td></tr><tr><td class="tint"><p><strong>糖鐵與車站記憶</strong></p>
+<p>歷史．延伸</p></td><td><strong>✔✔△✔</strong></td><td>提案書（單一來源）</td><td>舊台糖原料線；雲林的糖鐵不只土庫有</td></tr><tr><td class="tint"><p><strong>醬油、食用油、蜂蜜等加工</strong></p>
+<p>產業．延伸</p></td><td><strong>✔✔△✔</strong></td><td>提案書（單一來源）</td><td>源順油廠為觀光工廠；加工業各鄉鎮都有，須找出土庫特有的做法</td></tr><tr><td class="tint"><p><strong>有機可可（土庫驛農場）</strong></p>
+<p>產業（新事業）．不列DNA</p></td><td><strong>？△？✔</strong></td><td>提案書</td><td>與土庫的歷史、產業或信仰沒有可說明的關係；糖業記憶與甜食工藝的連結只是可檢驗的假說<strong><span class="tag tag-tbc">待確認</span></strong></td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔土1〕至〔土3〕）。</p>
+<div class="table-wrap" id="tbl-17-17" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.17</strong>　雲林土庫：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　提案書是官方文件，數字清楚標示為目標；順天宮、第一市場與諺語另有媒體報導〔土3〕。</p>
+<p><strong>缺口</strong>　提案書只有一份；營業額、留宿人次與就業目標都是目標，不是成果；光雕案是否演出，簡報未載。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　順天宮與北港進香中繼各有兩條以上路徑，通過四道檢驗。</p>
+<p><strong>缺口</strong>　有機可可通不過「成因」與「不可替代」；糖鐵、油醬加工只有單一來源。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　三條廊道（外環糖鐵、大同路、中山路）回到糖鐵與老街DNA；光雕回到辦桌迎媽祖。</p>
+<p><strong>缺口</strong>　旅店與可可沒有上游DNA的理由，是斷點；「進香中繼」這個最強的DNA沒有成為主軸。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　提案書未見色彩、圖紋或識別規格；光雕的視覺設計只在簡報出現。</p>
+<p><strong>缺口</strong>　從順天宮、第一市場、糖鐵與油醬取色，先做一張色票（第<a class="xref" href="ch08.html">8</a>章）。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>光雕涉及宗教場域，需要廟方與信眾的同意；提案書與簡報未載。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>提案以青農、契作與青年為對象（青年300人為目標），未寫居民如何共同決策。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>經費、KPI與營運規模最完整；但推算須檢驗（見下方數字檢查）。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>有機與友善耕作50公頃為目標；未見量測。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　縣府與鎮公所為提案單位，並有街區產業平台的構想。</p>
+<p><strong>缺口</strong>　宗教場域、旅店營運與契作的權責與授權未見（第<a class="xref" href="ch15.html">15</a>章）。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備0、△部分8、○缺口1。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　把「進香中繼」變成主軸；為旅店、可可與光雕補上DNA理由或改列為新事業；先查證光雕是否演出；廟方與信眾的同意程序要先寫成文件。</p>
+<p><strong>這個案例教了什麼</strong>　土庫示範兩件事：一是最強的DNA（進香中繼）可能被最大的投資（旅店與可可）繞過；二是提案的目標，要用算術檢查它的假設。</p>
+<h3 id="h9">案例七　雲林北港（沉浸體驗型（兼命名與品牌型））</h3>
+<p><strong>資料基礎</strong>　鎮公所提案簡報＋公開資料。<strong>轉譯路徑</strong>　沉浸體驗型（兼命名與品牌型）（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　北港（舊稱笨港）是以朝天宮媽祖信仰與每年迓媽祖繞境聚起人潮的信仰之城；信仰的人潮如何接上日常的商業生活，是它的轉譯課題。</p>
+<div class="table-wrap wide" id="tbl-17-18" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.18</strong>　雲林北港：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>朝天宮媽祖信仰與迓媽祖繞境</strong></p>
+<p>文化．核心</p></td><td><strong>✔✔✔✔</strong></td><td>提案簡報、媒體報導、廟宇資料</td><td>朝天宮創建於1694年（康熙33年）〔北2〕；提案載迓媽祖為農曆三月十九至二十，並有百年藝閣〔北1〕</td></tr><tr><td class="tint"><p><strong>笨港舊址與水道頭（日治自來水廠）</strong></p>
+<p>歷史．延伸</p></td><td><strong>✔✔△✔</strong></td><td>提案簡報（單一來源）</td><td>提案載水道頭為日治自來水廠，1997年停用；古笨港遺址</td></tr><tr><td class="tint"><p><strong>牛墟</strong></p>
+<p>社會．延伸</p></td><td><strong>△✔△✔</strong></td><td>提案簡報（單一來源）</td><td>提案稱為全台最大之一，須查市集統計<strong><span class="tag tag-tbc">待確認</span></strong></td></tr><tr><td class="tint"><p><strong>花生、麻油、大餅等傳統食物</strong></p>
+<p>產業．延伸</p></td><td><strong>✔✔△✔</strong></td><td>提案簡報（單一來源）</td><td>食物產地與做法的獨特處須田野補充</td></tr><tr><td class="tint"><p><strong>宏昇芽菜與豆菜庄</strong></p>
+<p>產業．延伸（瀕危，保存優先）</p></td><td><strong>✔✔△✔</strong></td><td>提案簡報（單一來源）</td><td>1950年代起；提案稱昔日過半百戶種芽菜、如今僅剩3戶；「全台唯一國產大豆芽菜」是最高級說法，須查證<strong><span class="tag tag-tbc">待確認</span></strong></td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔北1〕至〔北2〕）。</p>
+<div class="table-wrap" id="tbl-17-19" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.19</strong>　雲林北港：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　朝天宮創建年份有媒體報導〔北2〕，迓媽祖與光影節見提案簡報〔北1〕。</p>
+<p><strong>缺口</strong>　同一份簡報出現38,437與28,870兩種人口數字，口徑待核；牛墟、芽菜「全台唯一」須查證。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　朝天宮媽祖信仰與迓媽祖通過四道檢驗，且有提案、媒體與廟宇資料三條路。</p>
+<p><strong>缺口</strong>　芽菜是瀕危產業DNA：值得「保存」優先於「轉譯」（<a class="xref" href="ch02.html#s2-4">2.4</a>節）。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　「香客轉遊客」→旅人市集、老街店家與光影節，鏈條清楚。</p>
+<p><strong>缺口</strong>　芽菜的資金（貸款）不是轉譯；牛墟與花生、大餅尚未進入設計項目。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　「光」是光影節的共同語彙，與朝天宮建築直接相關。</p>
+<p><strong>缺口</strong>　光的語彙沒有延伸到市集、商品與老街識別；未見色碼與使用規範。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>光影節與朝天宮合作；神像與繞境影像的使用界線，未見說明。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>●具備</strong></td><td>返鄉青年團隊營運旅人市集並獲獎，是有紀錄的社會參與。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>老街店家與市集有營運基礎；提案經費與貸款屬目標。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>光影節以節能照明為訴求；缺用電與人流的量測。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　朝天宮為宗教管理主體，光影節以合作方式舉辦。</p>
+<p><strong>缺口</strong>　宗教影像授權、旅人市集的場地使用與分潤，文件未見（第<a class="xref" href="ch15.html">15</a>章）。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備2、△部分7、○缺口0。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　核對人口數字口徑（38,437與28,870）；芽菜以「保存」優先於「商品化」；把光的語彙延伸到市集、商品與老街；寫出宗教影像授權與市集分潤。</p>
+<p><strong>這個案例教了什麼</strong>　北港示範「從宗教人潮到日常消費」的轉譯題目；它也提醒：一個瀕危的產業DNA（豆菜庄僅剩3戶），不一定要變成商品，可能要先被保存。</p>
+<h3 id="h10">案例八　南投鹿谷（工藝與商品型（兼循環材料型））</h3>
+<p><strong>資料基礎</strong>　三份提案文件（2021、2022、2026）。<strong>轉譯路徑</strong>　工藝與商品型（兼循環材料型）（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　鹿谷是林鳳池自武夷山帶回軟枝烏龍茶種而成就凍頂烏龍的茶鄉；茶、竹、米、筍在三面環山的紅壤台地與沖積土上長成。</p>
+<div class="table-wrap wide" id="tbl-17-20" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.20</strong>　南投鹿谷：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>凍頂烏龍茶</strong></p>
+<p>產業．核心</p></td><td><strong>✔✔✔✔</strong></td><td>三份提案、茶席文化館提案的史料敘述</td><td>道光11年（約1831）林鳳池自福建武夷山帶回軟枝烏龍；大水堀台地紅壤適茶園〔鹿2〕</td></tr><tr><td class="tint"><p><strong>竹、筍與瑞田米</strong></p>
+<p>產業．延伸（與竹山重疊）</p></td><td><strong>✔✔△✔</strong></td><td>2021年提案</td><td>竹與筍在鄰近的竹山更為知名，不可替代性有限；可與竹山共享區域色彩（第<a class="xref" href="ch10.html">10</a>章）</td></tr><tr><td class="tint"><p><strong>八通關古道與開拓史</strong></p>
+<p>歷史．延伸</p></td><td><strong>✔✔△✔</strong></td><td>提案</td><td>1875年開闢，國定古蹟；與茶的關係須說明</td></tr><tr><td class="tint"><p><strong>麒麟潭與水資源</strong></p>
+<p>自然．問題線索</p></td><td><strong>✔✔△△</strong></td><td>提案</td><td>約180年前築壩蓄水；優養化嚴重〔鹿2〕；是永續轉譯的問題，不是魅力主軸</td></tr><tr><td class="tint"><p><strong>陶藝與陶瓷廢料</strong></p>
+<p>產業（循環）．可轉化物，不列DNA</p></td><td><strong>△✔？✔</strong></td><td>2026年窯火再生提案</td><td>問題與數據來自陶藝家田調與前期成果〔鹿3〕；是第<a class="xref" href="ch16.html">16</a>章的「可轉化物」</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔鹿1〕至〔鹿3〕）。</p>
+<div class="table-wrap" id="tbl-17-21" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.21</strong>　南投鹿谷：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　三份提案跨2021至2026年，歷史事實與KPI算術互相對得上（4,165×300≈125萬、7,000×500＝350萬）。</p>
+<p><strong>缺口</strong>　茶園面積同一份文件有1,700與實查675.5公頃兩種口徑；全是提案文件，沒有第三方查核；SIIR案未通過。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>●具備</strong></td><td><p><strong>依據</strong>　凍頂烏龍茶通過四道檢驗，有史料、土壤、品牌與提案多條路。</p>
+<p><strong>缺口</strong>　竹與筍和竹山重疊，列延伸；陶瓷廢料是可轉化物，不是DNA。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　茶→五感茶席→一日茶師與茶山輕旅行，鏈條清楚。</p>
+<p><strong>缺口</strong>　田園風箏節、茶咖智販機與茶DNA的關係未說明；窯火再生接的是永續問題，不是茶。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　茶席文化館以五感傳遞茶DNA；凍頂茶LOGO以比賽徵集。</p>
+<p><strong>缺口</strong>　未見茶色、茶具造形與圖紋的共同語彙，LOGO徵集不等於視覺系統。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>茶席文化教育是文化價值；茶師與茶農是否參與審訂，未載。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>△部分</strong></td><td>營運委外協會；茶農與居民參與機制未見。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>KPI算術一致，但SIIR未通過，營運資金仍屬目標。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>●具備</strong></td><td>窯火再生有量測資料：191道配方、1:2比例、成分SiO₂ 66.2%（日本26號瓷土67.5%）；已知&gt;100克成形性下降。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　茶席文化館由大華嚴寺管理、委外營運，角色清楚。</p>
+<p><strong>缺口</strong>　茶具、LOGO與配方資料的授權與公開程度未見（第<a class="xref" href="ch15.html">15</a>章）。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備2、△部分7、○缺口0。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　統一茶園面積的口徑（1,700公頃與實查675.5公頃）；把茶色與茶具造形寫成共同語彙，而不只是LOGO徵集；寫出茶具與配方的授權與公開程度。</p>
+<p><strong>這個案例教了什麼</strong>　鹿谷最適合示範「茶是DNA、陶瓷廢料是可轉化物」：兩者不在同一條鏈上，卻可以在同一個永續框架裡互相補充。</p>
+<h3 id="h11">案例九　南投埔里（循環材料型（兼工藝與商品型））</h3>
+<p><strong>資料基礎</strong>　公開網路資料（含廣編稿）；沒有作者或提案文件。<strong>轉譯路徑</strong>　循環材料型（兼工藝與商品型）（<a class="xref" href="ch03.html#s3-6">3.6</a>節）。<strong>核心本質句（教學示範）</strong>　埔里是群山環抱的盆地，盆地的水讓酒、紙與桃米的生態各自長成不同的產業與社區行動。（教學示範；水質證據待補）</p>
+<div class="table-wrap wide" id="tbl-17-22" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.22</strong>　南投埔里：地方DNA的四道檢驗</div><table class="plain" data-cols="4"><thead><tr><th><strong>DNA候選項（類別．層級）</strong></th><th><p><strong>四道檢驗</strong></p>
+<p><strong>成因　關係</strong></p>
+<p><strong>不可替代</strong></p>
+<p><strong>可轉譯</strong></p></th><th><strong>證據路徑</strong></th><th><strong>判讀與界線</strong></th></tr></thead><tbody><tr><td class="tint"><p><strong>「水」：酒、紙、生態三條線索</strong></p>
+<p>自然．核心候選（待水質證據）</p></td><td><strong>✔✔△✔</strong></td><td>酒廠、紙寮、桃米三條獨立線索，但都是業者或媒體敘事</td><td>酒廠以愛蘭泉水為訴求〔埔2〕；紙寮稱水質適合造紙〔埔3〕；桃米以生態與濕地為本〔埔4〕；缺水文與水質資料</td></tr><tr><td class="tint"><p><strong>紹興酒（埔里酒廠）</strong></p>
+<p>產業．次核心</p></td><td><strong>✔✔△✔</strong></td><td>媒體報導（兩條以上）</td><td>台灣紹興酒生產中心；1980年代市占居冠〔埔2〕；紹興酒也非埔里獨有</td></tr><tr><td class="tint"><p><strong>手工紙（廣興紙寮）</strong></p>
+<p>工藝．次核心（瀕危）</p></td><td><strong>✔✔△✔</strong></td><td>媒體報導（兩條以上）</td><td>機械造紙普及後，埔里手工造紙漸式微；以茭白筍殼等在地材料研發手工紙〔埔3〕</td></tr><tr><td class="tint"><p><strong>桃米社區的重建與生態村</strong></p>
+<p>社會．核心</p></td><td><strong>✔✔✔✔</strong></td><td>媒體報導、學術與政策資料</td><td>921後暨南大學、基金會與居民合作，經18年；培養24位生態講解員〔埔4〕</td></tr><tr><td class="tint"><p><strong>紙教堂（外來遷建物件）</strong></p>
+<p>文化．不列在地DNA</p></td><td><strong>？△✔△</strong></td><td>媒體報導</td><td>1995年神戶建築、後遷至埔里；與埔里自身歷史的關係是「遷建」，連結說法須查證<strong><span class="tag tag-tbc">待確認</span></strong>〔埔5〕</td></tr></tbody></table></div>
+<p class="note">✔通過、△部分、？無法判斷；四道依序為成因、關係、不可替代、可轉譯（<a class="xref" href="ch02.html#s2-5">2.5</a>節）。依各案例現有文件的桌面審查；來源編號見<a class="xref" href="appendix-f.html#sF-6">附錄F.6</a>（〔埔1〕至〔埔5〕）。</p>
+<div class="table-wrap" id="tbl-17-23" role="region" aria-label="表格" tabindex="0"><div class="table-cap"><strong>表17.23</strong>　南投埔里：案例驗證卡（桌面審查）</div><table data-cols="3"><thead><tr><th><strong>驗證項目</strong></th><th><strong>評等</strong></th><th><strong>文件依據與缺口（桌面審查）</strong></th></tr></thead><tbody><tr><td class="tint">V1　證據可追溯</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　三條線索各有不同的來源：酒廠〔埔2〕、紙寮〔埔3〕、桃米〔埔4〕。</p>
+<p><strong>缺口</strong>　來源以媒體與廣編稿為主；水質、手工紙廠數量與酒廠年份須查官方資料。</p></td></tr><tr><td class="tint">V2　DNA成立</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　桃米的社區重建通過四道檢驗；「水」有三條路徑。</p>
+<p><strong>缺口</strong>　三條路徑都是業者或媒體敘事，缺水文與水質證據，「獨立」只在來源，不在事實；紙教堂不列在地DNA。</p></td></tr><tr><td class="tint">V3　轉譯鏈完整</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　各實踐者各有清楚的轉譯：水→紙→觀光工廠與新材料；水→酒→參訪；生態→社區→導覽。</p>
+<p><strong>缺口</strong>　沒有一個整體的魅力主題，三條鏈各自為政；本書補的魅力主題是示範假設。</p></td></tr><tr><td class="tint">V4　設計一致</td><td class="tint"><strong>○缺口</strong></td><td><p><strong>依據</strong>　三處各有各的識別，文件未見共享的色彩、圖紋或導引。</p>
+<p><strong>缺口</strong>　示範：以水色、紙白、酒琥珀、蛙綠建一張共同色票（第<a class="xref" href="ch08.html">8</a>章）。</p></td></tr><tr><td class="tint">V5　文化適切</td><td class="tint"><strong>△部分</strong></td><td>紙教堂是外來物件；埔里開墾史的敘事視角，應有原住民族與平埔族群參與（第<a class="xref" href="ch15.html">15</a>章）。</td></tr><tr><td class="tint">V5　社會參與</td><td class="tint"><strong>●具備</strong></td><td>桃米是社區自主與跨域合作，並培養24位生態講解員〔埔4〕。</td></tr><tr><td class="tint">V5　經濟可行</td><td class="tint"><strong>△部分</strong></td><td>紙廠剩下少數、觀光工廠轉型；收支資料未見。</td></tr><tr><td class="tint">V5　環境永續</td><td class="tint"><strong>△部分</strong></td><td>桃米有生態保育與濕地，茭白筍殼是農業副產物再利用；缺量測。</td></tr><tr><td class="tint">V6　治理與倫理</td><td class="tint"><strong>△部分</strong></td><td><p><strong>依據</strong>　基金會、學界、社區與公部門協力〔埔4〕。</p>
+<p><strong>缺口</strong>　紙教堂的權利、在地配方與工藝的授權與署名未見。</p></td></tr></tbody></table></div>
+<p class="note">合計九格：●具備1、△部分7、○缺口1。V5分文化適切、社會參與、經濟可行與環境永續四格。</p>
+<p><strong>下一步</strong>　補水質與水文的證據（官方資料），把「水」從核心候選改為核心或剔除；三條線索要與業者及社區共同檢核；紙教堂列為外來遷建物件，不列在地DNA。</p>
+<p><strong>這個案例教了什麼</strong>　埔里示範「沒有人替地方寫過轉譯鏈，我們怎麼做？」：先把三條線索並排檢驗，再決定「水」能不能成為DNA，最後才談魅力與設計。</p>
+<h3 id="h12">參照列：竹山與崙背為什麼也要被量一次</h3>
+<p>竹山與崙背是本書自己走完的兩條鏈，V1至V4依本章<a class="xref" href="#s17-2">17.2</a>、<a class="xref" href="#s17-3">17.3</a>節的追溯鏈自評為具備。V5與V6則仍是示範假設：成本、定價與測試對象都是教學設定，授權與同意都是<strong><span class="tag tag-tbc">待確認</span></strong>，沒有現場驗證。所以兩案在矩陣裡的永續四格與治理格都是△。這是這套方法的一個誠實之處：它對自己也用同一把尺。</p>
+<aside class="callout tone-warn"><div class="callout-label"><span aria-hidden="true">!</span>常見錯誤</div><p class="callout-title"><strong>初學者容易犯的錯</strong></p><p><strong>成品元素寫得太粗。</strong> 「包裝」「色彩」「故事」都太籠統，無法追；拆成具體的元素才有意義。</p>
+<p><strong>證據欄只寫「已確認」。</strong> 沒有編號、文件名與日期的確認，無法被他人覆核。</p>
+<p><strong>把示範的狀態當成自己的。</strong> 示範標示<strong><span class="tag tag-demo">示範假設</span></strong>的數字與同意，都要換成本組實際取得的資料。</p>
+<p><strong>只由做的人自己審。</strong> 反向審查要有小組以外的人參與，才找得到盲點。</p>
+<p><strong>找到斷點卻不排任務。</strong> 斷點只列出不處理，只是把問題留給最後一刻；要排優先順序、指定負責人與期限。</p></aside>
+<aside class="callout tone-green"><div class="callout-label"><span aria-hidden="true">☑</span>證據包</div><p class="callout-title"><strong>本階段最低成果證據包</strong></p><p class="check">　追溯總表：每個成品元素的回溯、證據與同意、AI協作與狀態</p>
+<p class="check">　追溯鏈一頁圖：從證據到驗證，標出斷點與授權門檻</p>
+<p class="check">　反向審查紀錄：審查者、抽查的元素、回答與斷點清單</p>
+<p class="check">　斷點與田野任務清單：要問誰、問什麼、優先順序、負責人與期限</p>
+<p class="check">　追溯總表的版本紀錄：每次補齊證據後的更新日期與變更內容</p>
+<p class="check">　（選做）案例驗證卡：用<a class="xref" href="appendix-c.html">附錄C</a>的<a class="xref" href="appendix-c.html#tbl-C-13">表C.13</a>替自己的案例做一次桌面審查，每一格寫出依據與缺口</p></aside>
+<aside class="callout tone-blue"><div class="callout-label"><span aria-hidden="true">✎</span>練習</div><p class="callout-title"><strong>課堂練習</strong></p><p>①　為你的專案建立追溯總表，至少列出8個成品元素，並標明狀態。</p>
+<p>②　請另一組同學對你的成品隨機抽三個元素做反向審查，記下他們問倒你的地方。</p>
+<p>③　用W11檢查你的追溯總表，比較AI找到的斷點與你自己找到的，並說明差異。</p>
+<p>④　為每個斷點寫一個田野問題，並排出優先順序與負責人。</p>
+<p>⑤　對照圖「竹山的完整管線」，說明你的專案每一步用了哪些證據，哪一步最薄弱。</p></aside>
+<aside class="callout tone-gray"><div class="callout-label"><span aria-hidden="true">≡</span>小結</div><p class="callout-title"><strong>本章小結</strong></p><p>1.　追溯鏈是成品每個元素到田野證據的連線；追溯總表是它的表格形式。</p>
+<p>2.　竹山案例的五步管線涵蓋九項成果；遊程與商品也可以互相追溯。</p>
+<p>3.　崙背的一頁追溯鏈顯示：證據較紮實、商品與測試多為示範假設，並標出斷點與授權門檻。</p>
+<p>4.　反向審查從成品往回問五個問題；任何一格答不出，就是斷點。</p>
+<p>5.　斷點要轉成田野任務：授權類先做，會改變設計方向的先做。</p>
+<p>6.　證據一動，下游跟著動：補齊證據後要回頭檢查DNA層級、語彙與規格。</p>
+<p>7.　同一把尺（六道驗證）可以量任何案例，也可以量自己；九個外部案例顯示，最常見的是「有意圖、缺資料」，治理與倫理是最薄的一欄（<a class="xref" href="#s17-6">17.6</a>節）。</p></aside></div><nav class="pager" aria-label="上一章與下一章"><a class="prev" href="ch16.html"><span class="dir">← 上一章</span><span class="ttl">第 16 章　設計的永續轉譯</span></a><a class="next" href="ch18.html"><span class="dir">下一章 →</span><span class="ttl">第 18 章　課程實施與成果評量</span></a></nav><footer class="page-foot"><span>《地方 DNA 設計轉譯》張文山　審閱編修稿 3.3 整合版（2026 年 10 月）</span><span>快捷鍵：<kbd>/</kbd> 搜尋　<kbd>←</kbd><kbd>→</kbd> 換章</span></footer></article></main>
+  </div>
+</div>
+<button class="to-top" type="button" aria-label="回到頁首"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="search-dlg" id="searchDlg" role="dialog" aria-modal="true" aria-label="搜尋全書" hidden>
+  <div class="search-box">
+    <div class="search-field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="searchInput" type="search" placeholder="搜尋全書內容…" autocomplete="off" aria-controls="searchResults" aria-label="搜尋關鍵字"><kbd>Esc</kbd><button class="icon-btn search-close" type="button" data-close-search>取消</button></div>
+    <ul class="search-results" id="searchResults" role="listbox"></ul>
+    <div class="search-foot"><span><kbd>↑</kbd><kbd>↓</kbd> 選擇</span><span><kbd>Enter</kbd> 前往</span><span><kbd>Esc</kbd> 關閉</span></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" hidden><button class="icon-btn" type="button" aria-label="關閉圖片"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><div><img alt=""><p></p></div></div>
+<script src="assets/js/book.js" defer></script>
+</body>
+</html>
